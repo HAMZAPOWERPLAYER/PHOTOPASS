@@ -1,0 +1,230 @@
+﻿{
+  "@@locale": "ar",
+  "appTitle": "PhotoPass",
+  "navHome": "الرئيسية",
+  "navHistory": "السجل",
+  "navSettings": "الإعدادات",
+  "onboardingPrivacyTitle": "لن تغادر صورك هاتفك أبدًا",
+  "onboardingPrivacyBody": "يتولى فوتو باس اكتشاف الوجوه وإزالة الخلفية وتصدير الصورة بالكامل على جهازك. لا حساب، ولا رفع إلى السحابة، ولا تحليلات لصورك.",
+  "onboardingHowTitle": "ثلاث خطوات بسيطة",
+  "onboardingHowBody": "اختر بلدك ونوع المستند، ثم صوّر صورة أو اختر واحدة من معرضك، وبعد ذلك صدّر صورة متوافقة وجاهزة للطباعة.",
+  "onboardingLanguageTitle": "اختر لغتك",
+  "commonContinue": "متابعة",
+  "commonSkip": "تخطٍ",
+  "commonStart": "البدء",
+  "commonBack": "رجوع",
+  "commonCancel": "إلغاء",
+  "commonRetry": "أعد المحاولة",
+  "commonClose": "إغلاق",
+  "errorGenericTitle": "حدث خطأ ما",
+  "errorGenericBody": "يرجى المحاولة مرة أخرى.",
+  "placeholderBody": "ستظهر هذه الشاشة في مرحلة بناء لاحقة.",
+  "homeSearchHint": "ابحث عن بلد أو مستند",
+  "homePopularTitle": "الشائع",
+  "homePassport": "جواز السفر",
+  "homeVisa": "التأشيرة",
+  "homeIdCard": "بطاقة الهوية",
+  "homeCustomSize": "مقاس مخصص",
+  "historyEmptyTitle": "لا توجد صور بعد",
+  "historyEmptyBody": "ستظهر الصور التي تنشئها هنا.",
+  "countrySelectTitle": "البلد والمستند",
+  "countrySearchHint": "ابحث عن بلد",
+  "countryNoResults": "لا توجد بلدان مطابقة",
+  "countryDocumentsCount": "{count} مستندات",
+  "@countryDocumentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "specSizeLabel": "المقاس",
+  "specBackgroundLabel": "الخلفية",
+  "specDpiLabel": "الدقة",
+  "specFormatsLabel": "الصيغ",
+  "specHeadHeightLabel": "ارتفاع الرأس",
+  "specEyeLineLabel": "ارتفاع العينين من الأسفل",
+  "specGlassesAllowed": "النظارات مسموحة",
+  "specGlassesNotAllowed": "النظارات غير مسموحة",
+  "specMaxFileSizeLabel": "أقصى حجم للملف",
+  "specVerifiedBadge": "موثّق",
+  "specUnverifiedBadge": "غير موثّق",
+  "specUnverifiedNotice": "يرجى التأكد من المصدر الرسمي.",
+  "specOfficialSource": "المصدر الرسمي",
+  "specLastVerified": "آخر تحقق {date}",
+  "@specLastVerified": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "specUsePhoto": "استخدام هذه الصورة",
+  "specNotSpecified": "غير محدد",
+  "spec_us_passport": "جواز سفر الولايات المتحدة",
+  "spec_gb_passport": "جواز سفر المملكة المتحدة",
+  "spec_ca_passport": "جواز سفر كندا",
+  "spec_cn_visa": "تأشيرة الصين",
+  "spec_de_schengen_visa": "ألمانيا — تأشيرة شنغن",
+  "spec_fr_schengen_visa": "فرنسا — تأشيرة شنغن",
+  "spec_it_schengen_visa": "إيطاليا — تأشيرة شنغن",
+  "spec_es_schengen_visa": "إسبانيا — تأشيرة شنغن",
+  "captureTitle": "التقاط صورة",
+  "captureRationaleTitle": "الوصول إلى الكاميرا مطلوب",
+  "captureRationaleBody": "يستخدم PhotoPass الكاميرا لالتقاط صورة جواز السفر. تبقى الصورة على هاتفك ولا تُرفع أبدًا.",
+  "captureRationaleDenied": "الوصول إلى الكاميرا معطّل. فعّله من إعدادات النظام لالتقاط صورة، أو اختر واحدة من معرض الصور.",
+  "captureRationaleAction": "السماح بالكاميرا",
+  "captureOpenSettings": "فتح الإعدادات",
+  "captureCameraError": "تعذّر تشغيل الكاميرا. يمكنك الاختيار من معرض الصور.",
+  "captureHintFace": "ضع وجهك داخل البيضاوي",
+  "captureSwitchCamera": "تبديل الكاميرا",
+  "captureGallery": "اختيار من المعرض",
+  "editorTitle": "تحرير الصورة",
+  "editorRotate": "تدوير 90°",
+  "editorAutoFit": "ملاءمة تلقائية للوجه",
+  "editorApply": "قص الصورة",
+  "retouchTitle": "الخلفية والتعديلات",
+  "retouchBackground": "الخلفية",
+  "retouchRemoveBackground": "استبدال الخلفية",
+  "retouchRemoveBackgroundHint": "يملأ الخلفية العادية خلفك بلون نظيف.",
+  "retouchTolerance": "حد التحمّل في الكشف: {value}",
+  "@retouchTolerance": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "retouchBackgroundColor": "لون الاستبدال",
+  "retouchAdjustments": "التعديلات",
+  "retouchBrightness": "السطوع",
+  "retouchContrast": "التباين",
+  "retouchSaturation": "الألوان",
+  "retouchLocalNote": "تتم جميع المعالجات على هذا الجهاز.",
+  "retouchApply": "متابعة",
+  "complianceTitle": "فحص المطابقة",
+  "complianceIntro": "تقارن هذه الفحوصات صورتك بالمتطلبات الرسمية. إنها إرشادية ولا تضمن القبول.",
+  "complianceContinue": "المتابعة إلى التصدير",
+  "complianceMeasured": "تم القياس",
+  "complianceDimensions": "مقاس الصورة",
+  "complianceDimensionsDetail": "يجب أن يكون مقاس الصورة بالبكسل مطابقًا تمامًا للمطلوب.",
+  "complianceFace": "تم اكتشاف وجه واحد",
+  "complianceFaceDetail": "يجب أن تحتوي الصورة على شخص واحد بالضبط.",
+  "complianceHeadHeight": "ارتفاع الرأس",
+  "complianceHeadHeightDetail": "يجب أن يقع ارتفاع الرأس ضمن النطاق الرسمي.",
+  "complianceEyeLine": "موضع خط العينين",
+  "complianceEyeLineDetail": "يجب أن تكون العينان على الارتفاع الرسمي من الأسفل.",
+  "complianceBackground": "لون الخلفية وتجانسها",
+  "complianceBackgroundDetail": "يجب أن تكون الخلفية بلون واحد ومطابقة للون المطلوب.",
+  "complianceGlasses": "النظارات",
+  "complianceGlassesAllowed": "النظارات مسموحة لهذا المستند.",
+  "complianceGlassesForbidden": "النظارات غير مسموحة لهذا المستند.",
+  "complianceFileSize": "حجم الملف",
+  "complianceFileSizeDetail": "يجب أن يبقى حجم الملف دون الحد الرسمي.",
+  "exportTitle": "تصدير",
+  "exportSizeLabel": "{width} × {height} بكسل",
+  "@exportSizeLabel": {
+    "placeholders": {
+      "width": {
+        "type": "int"
+      },
+      "height": {
+        "type": "int"
+      }
+    }
+  },
+  "exportDetails": "{mm} مم عند {dpi} DPI",
+  "@exportDetails": {
+    "placeholders": {
+      "mm": {
+        "type": "String"
+      },
+      "dpi": {
+        "type": "String"
+      }
+    }
+  },
+  "exportSavePhoto": "حفظ الصورة",
+  "exportSavePhotoHint": "يحفظ الصورة بالمقاس الدقيق في معرض الصور.",
+  "exportShare": "مشاركة",
+  "exportPdf": "PDF (جاهز للطباعة)",
+  "exportPdfHint": "صورة واحدة بالحجم الفيزيائي الدقيق، جاهزة للطباعة.",
+  "exportPrintSheetTitle": "أوراق الطباعة",
+  "exportPrintSheet": "ورقة طباعة — {size}",
+  "@exportPrintSheet": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "exportPrintSheetHint": "عدة صور مرتبة على ورقة واحدة.",
+  "exportDoneSave": "تم الحفظ.",
+  "exportDonePdf": "ملف PDF جاهز للمشاركة.",
+  "exportDoneSheet": "ورقة الطباعة جاهزة للمشاركة.",
+  "exportLocalNote": "تُنشئ الصور على هذا الجهاز. لا يُرفع أي شيء.",
+  "historyDelete": "حذف",
+  "settingsPrivacy": "الخصوصية",
+  "settingsClearHistoryHint": "يحذف جميع الصور المحفوظة من هذا الجهاز.",
+  "settingsClearHistoryConfirm": "سيؤدي هذا إلى حذف كل صورة محفوظة في التطبيق نهائيًا. لا يمكن التراجع عن ذلك.",
+  "settingsClearHistoryAction": "حذف الكل",
+  "privacyPolicyBody": "PhotoPass تعالج صورك بالكامل على هذا الجهاز.\n\n• لا تُرفع الصور إلى أي خادم أبدًا.\n• لا يحتوي التطبيق على إعلانات أو تحليلات أو تتبّع.\n• لا حاجة إلى حساب أو تسجيل دخول.\n• تُخزَّن الصور المحفوظة في التخزين الخاص بالتطبيق فقط.\n• الوصول الوحيد إلى الشبكة هو فتح روابط المصادر الحكومية الرسمية في متصفحك.\n• حذف التطبيق يزيل جميع بياناته.",
+  "settingsAppearance": "المظهر",
+  "settingsGeneral": "عام",
+  "settingsLanguage": "اللغة",
+  "settingsThemeLight": "فاتح",
+  "settingsThemeDark": "داكن",
+  "settingsThemeSystem": "النظام",
+  "settingsPrivacyPolicy": "سياسة الخصوصية",
+  "settingsTerms": "شروط الاستخدام",
+  "settingsRateApp": "قيّم التطبيق",
+  "settingsClearHistory": "حذف جميع الصور المحفوظة",
+  "settingsAbout": "حول",
+  "settingsVersion": "الإصدار {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "disclaimer": "قد تتغير المتطلبات. تحقّق دائمًا من المصدر الرسمي. لا يمكن لـ PhotoPass ضمان القبول.",
+  "exportShareHint": "يُرسل الصورة الجاهزة إلى تطبيق آخر.",
+  "exportDoneShare": "تمت المشاركة.",
+  "exportFileSizeLimit": "أقصى حجم للملف: {kb} KB",
+  "@exportFileSizeLimit": {
+    "placeholders": {
+      "kb": {
+        "type": "int"
+      }
+    }
+  },
+  "homeHeadline": "أنشئ صورة جواز السفر المتوافقة مع المتطلبات",
+  "homeCreatePhoto": "إنشاء صورة",
+  "homeRecentTitle": "الأخيرة",
+  "homeFavoritesTitle": "المفضلة",
+  "homeYourPhotosTitle": "صورك",
+  "homeYourPhotosEmpty": "ستظهر الصور التي تنشئها هنا.",
+  "specFavoriteAdd": "إضافة إلى المفضلة",
+  "specFavoriteRemove": "إزالة من المفضلة",
+  "editorModeCrop": "قص",
+  "editorModeBackground": "الخلفية",
+  "editorModeAdjust": "تعديل",
+  "editorReset": "إعادة تعيين",
+  "editorDiscardTitle": "تجاهل التغييرات؟",
+  "editorDiscardBody": "ستُفقد عملية القص والتعديلات التي أجريتها.",
+  "editorDiscardConfirm": "تجاهل",
+  "captureFlash": "الفلاش",
+  "complianceActionRetake": "أعد التقاط الصورة بإضاءة أكثر تجانسًا.",
+  "complianceActionBackground": "استبدل الخلفية أو أعد التقاط الصورة أمام جدار سادة.",
+  "complianceActionCenter": "توسّط وجهك، واستخدم الملاءمة التلقائية، ثم أعد التقاط الصورة.",
+  "complianceActionDimensions": "أعد التصدير لإنتاج المقاس المطلوب بدقة.",
+  "complianceActionFilesize": "صدّر الصورة بصيغة JPEG ليبقى حجمها دون الحد الأقصى.",
+  "exportAdvancedDetails": "التفاصيل",
+  "historyMissingPhoto": "ملف الصورة مفقود",
+  "swatchRequired": "مطلوب",
+  "swatchSuggested": "مقترح",
+  "editorCropHint": "اسحب للتحريك، وقرّب بإصبعين للتكبير.",
+  "historyReopen": "فتح",
+  "historyReopenHint": "يفتح هذه الصورة في المحرر."
+}

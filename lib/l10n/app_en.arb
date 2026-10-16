@@ -1,0 +1,230 @@
+﻿{
+  "@@locale": "en",
+  "appTitle": "PhotoPass",
+  "navHome": "Home",
+  "navHistory": "History",
+  "navSettings": "Settings",
+  "onboardingPrivacyTitle": "Your photos never leave your phone",
+  "onboardingPrivacyBody": "PhotoPass detects faces, removes backgrounds and exports your photo entirely on your device. There is no account, no cloud upload and no analytics on your images.",
+  "onboardingHowTitle": "Three simple steps",
+  "onboardingHowBody": "Pick your country and document type, take or choose a photo, then export a compliant, print-ready image.",
+  "onboardingLanguageTitle": "Choose your language",
+  "commonContinue": "Continue",
+  "commonSkip": "Skip",
+  "commonStart": "Get started",
+  "commonBack": "Back",
+  "commonCancel": "Cancel",
+  "commonRetry": "Try again",
+  "commonClose": "Close",
+  "errorGenericTitle": "Something went wrong",
+  "errorGenericBody": "Please try again.",
+  "placeholderBody": "This screen arrives in a later build phase.",
+  "homeSearchHint": "Search country or document",
+  "homePopularTitle": "Popular",
+  "homePassport": "Passport",
+  "homeVisa": "Visa",
+  "homeIdCard": "ID card",
+  "homeCustomSize": "Custom size",
+  "historyEmptyTitle": "No photos yet",
+  "historyEmptyBody": "Photos you create will appear here.",
+  "countrySelectTitle": "Country & document",
+  "countrySearchHint": "Search country",
+  "countryNoResults": "No matching countries",
+  "countryDocumentsCount": "{count} documents",
+  "@countryDocumentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "specSizeLabel": "Size",
+  "specBackgroundLabel": "Background",
+  "specDpiLabel": "Resolution",
+  "specFormatsLabel": "Formats",
+  "specHeadHeightLabel": "Head height",
+  "specEyeLineLabel": "Eye line from bottom",
+  "specGlassesAllowed": "Glasses allowed",
+  "specGlassesNotAllowed": "Glasses not allowed",
+  "specMaxFileSizeLabel": "Max file size",
+  "specVerifiedBadge": "Verified",
+  "specUnverifiedBadge": "Unverified",
+  "specUnverifiedNotice": "Please confirm with the official source.",
+  "specOfficialSource": "Official source",
+  "specLastVerified": "Last verified {date}",
+  "@specLastVerified": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "specUsePhoto": "Use this photo",
+  "specNotSpecified": "Not specified",
+  "spec_us_passport": "United States passport",
+  "spec_gb_passport": "United Kingdom passport",
+  "spec_ca_passport": "Canada passport",
+  "spec_cn_visa": "China visa",
+  "spec_de_schengen_visa": "Germany — Schengen visa",
+  "spec_fr_schengen_visa": "France — Schengen visa",
+  "spec_it_schengen_visa": "Italy — Schengen visa",
+  "spec_es_schengen_visa": "Spain — Schengen visa",
+  "captureTitle": "Take a photo",
+  "captureRationaleTitle": "Camera access needed",
+  "captureRationaleBody": "PhotoPass uses your camera to take a passport photo. The photo stays on your phone and is never uploaded.",
+  "captureRationaleDenied": "Camera access is turned off. Enable it in system settings to take a photo, or choose one from your gallery.",
+  "captureRationaleAction": "Allow camera",
+  "captureOpenSettings": "Open settings",
+  "captureCameraError": "Couldn't start the camera. You can still choose a photo from your gallery.",
+  "captureHintFace": "Position your face inside the oval",
+  "captureSwitchCamera": "Switch camera",
+  "captureGallery": "Choose from gallery",
+  "editorTitle": "Edit photo",
+  "editorRotate": "Rotate 90°",
+  "editorAutoFit": "Auto-fit to face",
+  "editorApply": "Crop photo",
+  "retouchTitle": "Background & adjustments",
+  "retouchBackground": "Background",
+  "retouchRemoveBackground": "Replace background",
+  "retouchRemoveBackgroundHint": "Fills the plain background behind you with a clean colour.",
+  "retouchTolerance": "Detection tolerance: {value}",
+  "@retouchTolerance": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "retouchBackgroundColor": "Replacement colour",
+  "retouchAdjustments": "Adjustments",
+  "retouchBrightness": "Brightness",
+  "retouchContrast": "Contrast",
+  "retouchSaturation": "Colour",
+  "retouchLocalNote": "All processing happens on this device.",
+  "retouchApply": "Continue",
+  "complianceTitle": "Compliance check",
+  "complianceIntro": "These checks compare your photo with the official requirements. They are guidance, not a guarantee of acceptance.",
+  "complianceContinue": "Continue to export",
+  "complianceMeasured": "Measured",
+  "complianceDimensions": "Photo size",
+  "complianceDimensionsDetail": "The photo must have exactly the required pixel dimensions.",
+  "complianceFace": "One face detected",
+  "complianceFaceDetail": "The photo must contain exactly one person.",
+  "complianceHeadHeight": "Head height",
+  "complianceHeadHeightDetail": "Head height must fall within the official range.",
+  "complianceEyeLine": "Eye line position",
+  "complianceEyeLineDetail": "Eyes must sit at the official height from the bottom.",
+  "complianceBackground": "Background colour & uniformity",
+  "complianceBackgroundDetail": "The background must be plain and match the required colour.",
+  "complianceGlasses": "Glasses",
+  "complianceGlassesAllowed": "Glasses are allowed for this document.",
+  "complianceGlassesForbidden": "Glasses are not allowed for this document.",
+  "complianceFileSize": "File size",
+  "complianceFileSizeDetail": "The file must stay under the official size limit.",
+  "exportTitle": "Export",
+  "exportSizeLabel": "{width} × {height} pixels",
+  "@exportSizeLabel": {
+    "placeholders": {
+      "width": {
+        "type": "int"
+      },
+      "height": {
+        "type": "int"
+      }
+    }
+  },
+  "exportDetails": "{mm} mm at {dpi} DPI",
+  "@exportDetails": {
+    "placeholders": {
+      "mm": {
+        "type": "String"
+      },
+      "dpi": {
+        "type": "String"
+      }
+    }
+  },
+  "exportSavePhoto": "Save photo",
+  "exportSavePhotoHint": "Saves the exact-size photo to your gallery.",
+  "exportShare": "Share",
+  "exportShareHint": "Sends the finished photo to another app.",
+  "exportDoneShare": "Shared.",
+  "exportFileSizeLimit": "Maximum file size: {kb} KB",
+  "@exportFileSizeLimit": {
+    "placeholders": {
+      "kb": {
+        "type": "int"
+      }
+    }
+  },
+  "exportPdf": "PDF (print ready)",
+  "exportPdfHint": "One photo at the exact physical size, ready to print.",
+  "exportPrintSheetTitle": "Print sheets",
+  "exportPrintSheet": "Print sheet — {size}",
+  "@exportPrintSheet": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "exportPrintSheetHint": "Several photos arranged on one sheet of photo paper.",
+  "exportDoneSave": "Saved.",
+  "exportDonePdf": "PDF ready to share.",
+  "exportDoneSheet": "Print sheet ready to share.",
+  "exportLocalNote": "Photos are created on this device. Nothing is uploaded.",
+  "historyDelete": "Delete",
+  "settingsPrivacy": "Privacy",
+  "settingsClearHistoryHint": "Deletes all saved photos from this device.",
+  "settingsClearHistoryConfirm": "This permanently deletes every photo saved in the app. This cannot be undone.",
+  "settingsClearHistoryAction": "Delete everything",
+  "privacyPolicyBody": "PhotoPass processes your photos entirely on this device.\n\n• Photos are never uploaded to any server.\n• The app contains no ads, analytics or tracking.\n• No account or login is required.\n• Saved photos live only in the app's private storage.\n• The only network access is opening official government source links in your browser.\n• Deleting the app removes all of its data.",
+  "settingsAppearance": "Appearance",
+  "settingsGeneral": "General",
+  "settingsLanguage": "Language",
+  "settingsThemeLight": "Light",
+  "settingsThemeDark": "Dark",
+  "settingsThemeSystem": "System",
+  "settingsPrivacyPolicy": "Privacy policy",
+  "settingsTerms": "Terms of use",
+  "settingsRateApp": "Rate the app",
+  "settingsClearHistory": "Delete all saved photos",
+  "settingsAbout": "About",
+  "settingsVersion": "Version {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "disclaimer": "Requirements can change. Always check the official source. PhotoPass cannot guarantee acceptance.",
+  "homeHeadline": "Create a compliant passport photo",
+  "homeCreatePhoto": "Create a photo",
+  "homeRecentTitle": "Recent",
+  "homeFavoritesTitle": "Favourites",
+  "homeYourPhotosTitle": "Your photos",
+  "homeYourPhotosEmpty": "Photos you create will appear here.",
+  "specFavoriteAdd": "Add to favourites",
+  "specFavoriteRemove": "Remove from favourites",
+  "editorModeCrop": "Crop",
+  "editorModeBackground": "Background",
+  "editorModeAdjust": "Adjust",
+  "editorReset": "Reset",
+  "editorDiscardTitle": "Discard changes?",
+  "editorDiscardBody": "Your crop and adjustments will be lost.",
+  "editorDiscardConfirm": "Discard",
+  "captureFlash": "Flash",
+  "complianceActionRetake": "Retake the photo with more even lighting.",
+  "complianceActionBackground": "Replace the background or retake against a plain wall.",
+  "complianceActionCenter": "Centre your face, use auto-fit, then retake.",
+  "complianceActionDimensions": "Export again to produce the exact required size.",
+  "complianceActionFilesize": "Export as JPEG to stay under the size limit.",
+  "exportAdvancedDetails": "Details",
+  "historyMissingPhoto": "Photo file missing",
+  "swatchRequired": "Required",
+  "swatchSuggested": "Suggested",
+  "editorCropHint": "Drag to move, pinch to zoom.",
+  "historyReopen": "Open",
+  "historyReopenHint": "Opens this photo in the editor."
+}

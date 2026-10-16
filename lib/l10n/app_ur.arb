@@ -1,0 +1,230 @@
+﻿{
+  "@@locale": "ur",
+  "appTitle": "PhotoPass",
+  "navHome": "ہوم",
+  "navHistory": "تاریخچہ",
+  "navSettings": "ترتیبات",
+  "onboardingPrivacyTitle": "آپ کی تصاویر کبھی آپ کے فون سے باہر نہیں جاتیں",
+  "onboardingPrivacyBody": "فوٹوپاس چہرے کی نشاندہی، پس منظر کی تبدیلی اور تصویر کی ایکسپورٹ بالکل آپ کے ہی ڈیوائس پر کرتا ہے۔ کوئی اکاؤنٹ نہیں، کوئی کلاؤڈ اپ لوڈ نہیں، اور آپ کی تصاویر پر کوئی اینالیٹکس نہیں۔",
+  "onboardingHowTitle": "تین آسان مراحل",
+  "onboardingHowBody": "اپنے ملک اور دستاویز کی قسم منتخب کریں، تصویر لیں یا گیلری سے منتخب کریں، پھر مطابقت پذیر اور چھپائی کے لیے تیار تصویر باہر نکالیں۔",
+  "onboardingLanguageTitle": "اپنی زبان منتخب کریں",
+  "commonContinue": "جاری رکھیں",
+  "commonSkip": "چھوڑیں",
+  "commonStart": "شروع کریں",
+  "commonBack": "واپس",
+  "commonCancel": "منسوخ",
+  "commonRetry": "دوبارہ کوشش کریں",
+  "commonClose": "بند کریں",
+  "errorGenericTitle": "کچھ غلط ہو گیا",
+  "errorGenericBody": "براہِ کرم دوبارہ کوشش کریں۔",
+  "placeholderBody": "یہ اسکرین اگلے بلڈ مرحلے میں شامل ہوگی۔",
+  "homeSearchHint": "ملک یا دستاویز تلاش کریں",
+  "homePopularTitle": "مقبول",
+  "homePassport": "پاسپورٹ",
+  "homeVisa": "ویزا",
+  "homeIdCard": "شناختی کارڈ",
+  "homeCustomSize": "حسبِ ضرورت سائز",
+  "historyEmptyTitle": "ابھی کوئی تصاویر نہیں",
+  "historyEmptyBody": "آپ کی بنائی گئی تصاویر یہاں نظر آئیں گی۔",
+  "countrySelectTitle": "ملک اور دستاویز",
+  "countrySearchHint": "ملک تلاش کریں",
+  "countryNoResults": "کوئی متعلقہ ملک نہیں ملا",
+  "countryDocumentsCount": "{count} دستاویزات",
+  "@countryDocumentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "specSizeLabel": "سائز",
+  "specBackgroundLabel": "پس منظر",
+  "specDpiLabel": "رزلوشن",
+  "specFormatsLabel": "فارمیٹس",
+  "specHeadHeightLabel": "سر کی اونچائی",
+  "specEyeLineLabel": "آنکھوں کی لکیر نیچے سے",
+  "specGlassesAllowed": "عینک جائز ہے",
+  "specGlassesNotAllowed": "عینک جائز نہیں",
+  "specMaxFileSizeLabel": "زیادہ سے زیادہ فائل کا حجم",
+  "specVerifiedBadge": "تصدیق شدہ",
+  "specUnverifiedBadge": "غیر تصدیق شدہ",
+  "specUnverifiedNotice": "براہِ کرم سرکاری ماخذ سے تصدیق کریں۔",
+  "specOfficialSource": "سرکاری ماخذ",
+  "specLastVerified": "آخری تصدیق {date}",
+  "@specLastVerified": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "specUsePhoto": "یہ تصویر استعمال کریں",
+  "specNotSpecified": "مذکورہ نہیں",
+  "spec_us_passport": "امریکی پاسپورٹ",
+  "spec_gb_passport": "برطانوی پاسپورٹ",
+  "spec_ca_passport": "کینیڈین پاسپورٹ",
+  "spec_cn_visa": "چینی ویزا",
+  "spec_de_schengen_visa": "جرمنی — شینگن ویزا",
+  "spec_fr_schengen_visa": "فرانس — شینگن ویزا",
+  "spec_it_schengen_visa": "اٹلی — شینگن ویزا",
+  "spec_es_schengen_visa": "اسپین — شینگن ویزا",
+  "captureTitle": "تصویر لیں",
+  "captureRationaleTitle": "کیمرے کی اجازت درکار ہے",
+  "captureRationaleBody": "PhotoPass پاسپورٹ کی تصویر لینے کے لیے آپ کا کیمرا استعمال کرتا ہے۔ تصویر آپ کے فون پر ہی رہتی ہے اور کبھی اپ لوڈ نہیں ہوتی۔",
+  "captureRationaleDenied": "کیمرے کی اجازت بند ہے۔ تصویر لینے کے لیے سسٹم ترتیبات میں اسے فعال کریں، یا گیلری سے تصویر منتخب کریں۔",
+  "captureRationaleAction": "کیمرے کی اجازت دیں",
+  "captureOpenSettings": "ترتیبات کھولیں",
+  "captureCameraError": "کیمرا شروع نہیں ہو سکا۔ آپ گیلری سے تصویر منتخب کر سکتے ہیں۔",
+  "captureHintFace": "اپنے چہرے کو بیضے کے اندر رکھیں",
+  "captureSwitchCamera": "کیمرا تبدیل کریں",
+  "captureGallery": "گیلری سے منتخب کریں",
+  "editorTitle": "تصویر میں ترمیم",
+  "editorRotate": "90° گھمائیں",
+  "editorAutoFit": "چہرے کے مطابق خودکار ترتیب",
+  "editorApply": "تصویر کاٹیں",
+  "retouchTitle": "پس منظر اور ترمیمات",
+  "retouchBackground": "پس منظر",
+  "retouchRemoveBackground": "پس منظر تبدیل کریں",
+  "retouchRemoveBackgroundHint": "آپ کے پیچھے کے سادہ پس منظر کو صاف رنگ سے بھر دیتا ہے۔",
+  "retouchTolerance": "پہچان کی گنجائش: {value}",
+  "@retouchTolerance": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "retouchBackgroundColor": "تبدیلی کا رنگ",
+  "retouchAdjustments": "ترمیمات",
+  "retouchBrightness": "چمک",
+  "retouchContrast": "کانٹراسٹ",
+  "retouchSaturation": "رنگ",
+  "retouchLocalNote": "تمام پروسیسنگ اسی ڈیوائس پر ہوتی ہے۔",
+  "retouchApply": "جاری رکھیں",
+  "complianceTitle": "مطابقت کی جانچ",
+  "complianceIntro": "یہ جانچیں آپ کی تصویر کا موازنہ سرکاری شرائط سے کرتی ہیں۔ یہ رہنمائی ہیں، قبولیت کی ضمانت نہیں۔",
+  "complianceContinue": "ایکسپورٹ کی طرف جاری رکھیں",
+  "complianceMeasured": "پیمائش شدہ",
+  "complianceDimensions": "تصویر کا سائز",
+  "complianceDimensionsDetail": "تصویر کے پکسل کے پیمانے بالکل مطابق ہونے چاہئیں۔",
+  "complianceFace": "ایک چہرہ دریافت ہوا",
+  "complianceFaceDetail": "تصویر میں بالکل ایک شخص ہونا چاہیے۔",
+  "complianceHeadHeight": "سر کی اونچائی",
+  "complianceHeadHeightDetail": "سر کی اونچائی سرکاری حد میں ہونی چاہیے۔",
+  "complianceEyeLine": "آنکھوں کی لکیر کی جگہ",
+  "complianceEyeLineDetail": "آنکھیں نیچے سے سرکاری اونچائی پر ہونی چاہئیں۔",
+  "complianceBackground": "پس منظر کا رنگ اور یکساں پن",
+  "complianceBackgroundDetail": "پس منظر سادہ ہونا چاہیے اور مطلوبہ رنگ سے مماثل ہونا چاہیے۔",
+  "complianceGlasses": "عینک",
+  "complianceGlassesAllowed": "اس دستاویز کے لیے عینک جائز ہے۔",
+  "complianceGlassesForbidden": "اس دستاویز کے لیے عینک جائز نہیں۔",
+  "complianceFileSize": "فائل کا حجم",
+  "complianceFileSizeDetail": "فائل سرکاری حد سے کم ہونی چاہیے۔",
+  "exportTitle": "ایکسپورٹ",
+  "exportSizeLabel": "{width} × {height} پکسلز",
+  "@exportSizeLabel": {
+    "placeholders": {
+      "width": {
+        "type": "int"
+      },
+      "height": {
+        "type": "int"
+      }
+    }
+  },
+  "exportDetails": "{mm} ملی میٹر، {dpi} DPI",
+  "@exportDetails": {
+    "placeholders": {
+      "mm": {
+        "type": "String"
+      },
+      "dpi": {
+        "type": "String"
+      }
+    }
+  },
+  "exportSavePhoto": "تصویر محفوظ کریں",
+  "exportSavePhotoHint": "بالکل درست سائز کی تصویر آپ کی گیلری میں محفوظ کرتا ہے۔",
+  "exportShare": "شیئر کریں",
+  "exportPdf": "PDF (چھپائی کے لیے تیار)",
+  "exportPdfHint": "ایک تصویر بالکل درست جسامت میں، چھپائی کے لیے تیار۔",
+  "exportPrintSheetTitle": "پرنٹ شیٹس",
+  "exportPrintSheet": "پرنٹ شیٹ — {size}",
+  "@exportPrintSheet": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "exportPrintSheetHint": "ایک فوٹو پیپر کی شیٹ پر متعدد تصاویر۔",
+  "exportDoneSave": "محفوظ ہو گیا۔",
+  "exportDonePdf": "PDF شیئر کے لیے تیار ہے۔",
+  "exportDoneSheet": "پرنٹ شیٹ شیئر کے لیے تیار ہے۔",
+  "exportLocalNote": "تصاویر اسی ڈیوائس پر بنائی جاتی ہیں۔ کچھ بھی اپ لوڈ نہیں ہوتا۔",
+  "historyDelete": "حذف کریں",
+  "settingsPrivacy": "رازداری",
+  "settingsClearHistoryHint": "اس ڈیوائس سے تمام محفوظ تصاویر حذف کر دیتا ہے۔",
+  "settingsClearHistoryConfirm": "یہ ایپ میں محفوظ ہر تصویر مستقل طور پر حذف کر دیتا ہے۔ اسے واپس نہیں کیا جا سکتا۔",
+  "settingsClearHistoryAction": "سب کچھ حذف کریں",
+  "privacyPolicyBody": "PhotoPass آپ کی تصاویر کی پروسیسنگ بالکل اسی ڈیوائس پر کرتا ہے۔\n\n• تصاویر کبھی کسی سرور پر اپ لوڈ نہیں ہوتیں۔\n• ایپ میں کوئی اشتہار، اینالیٹکس یا ٹریکنگ نہیں ہے۔\n• کسی اکاؤنٹ یا لاگ اِن کی ضرورت نہیں۔\n• محفوظ تصاویر صرف ایپ کی نجی اسٹوریج میں رہتی ہیں۔\n• واحد نیٹ ورک رسائی آپ کے براؤزر میں سرکاری حکومتی ماخذ کے لنکس کھولنا ہے۔\n• ایپ کو حذف کرنے سے اس کا تمام ڈیٹا ختم ہو جاتا ہے۔",
+  "settingsAppearance": "ظاہری شکل",
+  "settingsGeneral": "عمومی",
+  "settingsLanguage": "زبان",
+  "settingsThemeLight": "روشن",
+  "settingsThemeDark": "گہرا",
+  "settingsThemeSystem": "سسٹم",
+  "settingsPrivacyPolicy": "رازداری کی پالیسی",
+  "settingsTerms": "استعمال کی شرائط",
+  "settingsRateApp": "ایپ کو درجہ بندی کریں",
+  "settingsClearHistory": "تمام محفوظ تصاویر حذف کریں",
+  "settingsAbout": "بارے میں",
+  "settingsVersion": "ورژن {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "disclaimer": "شرائط تبدیل ہو سکتی ہیں۔ ہمیشہ سرکاری ماخذ چیک کریں۔ PhotoPass قبولیت کی ضمانت نہیں دے سکتا۔",
+  "exportShareHint": "تیار شدہ تصویر کسی دوسری ایپ کو بھیج دیتی ہے۔",
+  "exportDoneShare": "شیئر ہو گیا۔",
+  "exportFileSizeLimit": "زیادہ سے زیادہ فائل کا حجم: {kb} KB",
+  "@exportFileSizeLimit": {
+    "placeholders": {
+      "kb": {
+        "type": "int"
+      }
+    }
+  },
+  "homeHeadline": "مطابقت پذیر پاسپورٹ کی تصویر بنائیں",
+  "homeCreatePhoto": "تصویر بنائیں",
+  "homeRecentTitle": "حالیہ",
+  "homeFavoritesTitle": "پسندیدہ",
+  "homeYourPhotosTitle": "آپ کی تصاویر",
+  "homeYourPhotosEmpty": "آپ کی بنائی گئی تصاویر یہاں نظر آئیں گی۔",
+  "specFavoriteAdd": "پسندیدہ میں شامل کریں",
+  "specFavoriteRemove": "پسندیدہ سے ہٹائیں",
+  "editorModeCrop": "کاٹیں",
+  "editorModeBackground": "پس منظر",
+  "editorModeAdjust": "ترمیم",
+  "editorReset": "ری سیٹ",
+  "editorDiscardTitle": "تبدیلیاں مسترد کر دیں؟",
+  "editorDiscardBody": "آپ کی کٹنگ اور ترمیمات ضائع ہو جائیں گی۔",
+  "editorDiscardConfirm": "مسترد کریں",
+  "captureFlash": "فلیش",
+  "complianceActionRetake": "مزید یکساں روشنی کے ساتھ تصویر دوبارہ لیں۔",
+  "complianceActionBackground": "پس منظر تبدیل کریں یا سادہ دیوار کے سامنے دوبارہ تصویر لیں۔",
+  "complianceActionCenter": "اپنے چہرے کو درمیان میں رکھیں، خودکار ترتیب استعمال کریں، پھر دوبارہ تصویر لیں۔",
+  "complianceActionDimensions": "بالکل درست مطلوبہ سائز حاصل کرنے کے لیے دوبارہ ایکسپورٹ کریں۔",
+  "complianceActionFilesize": "حجم کی حد سے کم رہنے کے لیے JPEG کے طور پر ایکسپورٹ کریں۔",
+  "exportAdvancedDetails": "تفصیلات",
+  "historyMissingPhoto": "تصویر کی فائل موجود نہیں",
+  "swatchRequired": "ضروری",
+  "swatchSuggested": "تجویز کردہ",
+  "editorCropHint": "منتقل کرنے کے لیے کھینچیں، زوم کے لیے انگلیوں سے پھیلائیں۔",
+  "historyReopen": "کھولیں",
+  "historyReopenHint": "یہ تصویر کو ایڈیٹر میں کھول دیتا ہے۔"
+}

@@ -1,0 +1,230 @@
+﻿{
+  "@@locale": "tr",
+  "appTitle": "PhotoPass",
+  "navHome": "Ana Sayfa",
+  "navHistory": "Geçmiş",
+  "navSettings": "Ayarlar",
+  "onboardingPrivacyTitle": "Fotoğraflarınız asla telefonunuzdan çıkmaz",
+  "onboardingPrivacyBody": "PhotoPass yüzleri algılar, arka planı kaldırır ve fotoğrafınızı tamamen cihazınızda dışa aktarır. Hesap yok, buluta yükleme yok, görüntüleriniz için analitik yok.",
+  "onboardingHowTitle": "Üç basit adım",
+  "onboardingHowBody": "Ülkenizi ve belge türünü seçin, bir fotoğraf çekin veya seçin, ardından uygun ve baskıya hazır bir görüntüyü dışa aktarın.",
+  "onboardingLanguageTitle": "Dilinizi seçin",
+  "commonContinue": "Devam",
+  "commonSkip": "Atla",
+  "commonStart": "Başlayın",
+  "commonBack": "Geri",
+  "commonCancel": "İptal",
+  "commonRetry": "Tekrar deneyin",
+  "commonClose": "Kapat",
+  "errorGenericTitle": "Bir şeyler ters gitti",
+  "errorGenericBody": "Lütfen tekrar deneyin.",
+  "placeholderBody": "Bu ekran daha sonraki bir derleme aşamasında gelecek.",
+  "homeSearchHint": "Ülke veya belge ara",
+  "homePopularTitle": "Popüler",
+  "homePassport": "Pasaport",
+  "homeVisa": "Vize",
+  "homeIdCard": "Kimlik kartı",
+  "homeCustomSize": "Özel boyut",
+  "historyEmptyTitle": "Henüz fotoğraf yok",
+  "historyEmptyBody": "Oluşturduğunuz fotoğraflar burada görünecek.",
+  "countrySelectTitle": "Ülke ve belge",
+  "countrySearchHint": "Ülke ara",
+  "countryNoResults": "Eşleşen ülke yok",
+  "countryDocumentsCount": "{count} belge",
+  "@countryDocumentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "specSizeLabel": "Boyut",
+  "specBackgroundLabel": "Arka plan",
+  "specDpiLabel": "Çözünürlük",
+  "specFormatsLabel": "Biçimler",
+  "specHeadHeightLabel": "Baş yüksekliği",
+  "specEyeLineLabel": "Alttan göz hattı",
+  "specGlassesAllowed": "Gözlük izinli",
+  "specGlassesNotAllowed": "Gözlük izinli değil",
+  "specMaxFileSizeLabel": "Azami dosya boyutu",
+  "specVerifiedBadge": "Doğrulandı",
+  "specUnverifiedBadge": "Doğrulanmadı",
+  "specUnverifiedNotice": "Lütfen resmi kaynaktan teyit edin.",
+  "specOfficialSource": "Resmi kaynak",
+  "specLastVerified": "Son doğrulama {date}",
+  "@specLastVerified": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "specUsePhoto": "Bu fotoğrafı kullan",
+  "specNotSpecified": "Belirtilmemiş",
+  "spec_us_passport": "Amerika Birleşik Devletleri pasaportu",
+  "spec_gb_passport": "Birleşik Krallık pasaportu",
+  "spec_ca_passport": "Kanada pasaportu",
+  "spec_cn_visa": "Çin vizesi",
+  "spec_de_schengen_visa": "Almanya — Schengen vizesi",
+  "spec_fr_schengen_visa": "Fransa — Schengen vizesi",
+  "spec_it_schengen_visa": "İtalya — Schengen vizesi",
+  "spec_es_schengen_visa": "İspanya — Schengen vizesi",
+  "captureTitle": "Fotoğraf çekin",
+  "captureRationaleTitle": "Kamera erişimi gerekli",
+  "captureRationaleBody": "PhotoPass, pasaport fotoğrafı çekmek için kameranızı kullanır. Fotoğraf telefonunuzda kalır ve asla yüklenmez.",
+  "captureRationaleDenied": "Kamera erişimi kapalı. Fotoğraf çekmek için sistem ayarlarından etkinleştirin veya galerinizden bir tane seçin.",
+  "captureRationaleAction": "Kameraya izin ver",
+  "captureOpenSettings": "Ayarları aç",
+  "captureCameraError": "Kamera başlatılamadı. Galerinizden bir fotoğraf seçmeye devam edebilirsiniz.",
+  "captureHintFace": "Yüzünüzü ovalin içine yerleştirin",
+  "captureSwitchCamera": "Kamerayı değiştir",
+  "captureGallery": "Galeriden seç",
+  "editorTitle": "Fotoğrafı düzenle",
+  "editorRotate": "90° döndür",
+  "editorAutoFit": "Yüze otomatik sığdır",
+  "editorApply": "Fotoğrafı kırp",
+  "retouchTitle": "Arka plan ve ayarlamalar",
+  "retouchBackground": "Arka plan",
+  "retouchRemoveBackground": "Arka planı değiştir",
+  "retouchRemoveBackgroundHint": "Arkanızdaki düz arka planı temiz bir renkle doldurur.",
+  "retouchTolerance": "Algılama toleransı: {value}",
+  "@retouchTolerance": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "retouchBackgroundColor": "Değiştirme rengi",
+  "retouchAdjustments": "Ayarlamalar",
+  "retouchBrightness": "Parlaklık",
+  "retouchContrast": "Kontrast",
+  "retouchSaturation": "Renk",
+  "retouchLocalNote": "Tüm işlem bu cihazda gerçekleştirilir.",
+  "retouchApply": "Devam",
+  "complianceTitle": "Uygunluk denetimi",
+  "complianceIntro": "Bu denetimler fotoğrafınızı resmi gerekliliklerle karşılaştırır. Bunlar rehber niteliğindedir; kabul garantisi değildir.",
+  "complianceContinue": "Dışa aktarmaya devam et",
+  "complianceMeasured": "Ölçüldü",
+  "complianceDimensions": "Fotoğraf boyutu",
+  "complianceDimensionsDetail": "Fotoğraf, tam olarak gereken piksel boyutlarında olmalıdır.",
+  "complianceFace": "Bir yüz algılandı",
+  "complianceFaceDetail": "Fotoğraf tam olarak bir kişi içermelidir.",
+  "complianceHeadHeight": "Baş yüksekliği",
+  "complianceHeadHeightDetail": "Baş yüksekliği resmi aralıkta olmalıdır.",
+  "complianceEyeLine": "Göz hattı konumu",
+  "complianceEyeLineDetail": "Gözler, alttan resmi yükseklikte olmalıdır.",
+  "complianceBackground": "Arka plan rengi ve bütünlüğü",
+  "complianceBackgroundDetail": "Arka plan düz olmalı ve gereken renk ile uyumlu olmalıdır.",
+  "complianceGlasses": "Gözlük",
+  "complianceGlassesAllowed": "Bu belge için gözlük izinlidir.",
+  "complianceGlassesForbidden": "Bu belge için gözlük izinli değildir.",
+  "complianceFileSize": "Dosya boyutu",
+  "complianceFileSizeDetail": "Dosya, resmi boyut sınırının altında kalmalıdır.",
+  "exportTitle": "Dışa aktar",
+  "exportSizeLabel": "{width} × {height} piksel",
+  "@exportSizeLabel": {
+    "placeholders": {
+      "width": {
+        "type": "int"
+      },
+      "height": {
+        "type": "int"
+      }
+    }
+  },
+  "exportDetails": "{mm} mm, {dpi} DPI",
+  "@exportDetails": {
+    "placeholders": {
+      "mm": {
+        "type": "String"
+      },
+      "dpi": {
+        "type": "String"
+      }
+    }
+  },
+  "exportSavePhoto": "Fotoğrafı kaydet",
+  "exportSavePhotoHint": "Tam boyutlu fotoğrafı galerinize kaydeder.",
+  "exportShare": "Paylaş",
+  "exportPdf": "PDF (baskıya hazır)",
+  "exportPdfHint": "Tam fiziksel boyutta bir fotoğraf, baskıya hazır.",
+  "exportPrintSheetTitle": "Baskı sayfaları",
+  "exportPrintSheet": "Baskı sayfası — {size}",
+  "@exportPrintSheet": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "exportPrintSheetHint": "Tek bir fotoğraf kâğıdına yerleştirilmiş birkaç fotoğraf.",
+  "exportDoneSave": "Kaydedildi.",
+  "exportDonePdf": "PDF paylaşmaya hazır.",
+  "exportDoneSheet": "Baskı sayfası paylaşmaya hazır.",
+  "exportLocalNote": "Fotoğraflar bu cihazda oluşturulur. Hiçbir şey yüklenmez.",
+  "historyDelete": "Sil",
+  "settingsPrivacy": "Gizlilik",
+  "settingsClearHistoryHint": "Bu cihazdaki tüm kayıtlı fotoğrafları siler.",
+  "settingsClearHistoryConfirm": "Bu işlem, uygulamadaki tüm kayıtlı fotoğrafları kalıcı olarak siler. Bu geri alınamaz.",
+  "settingsClearHistoryAction": "Tümünü sil",
+  "privacyPolicyBody": "PhotoPass, fotoğraflarınızı tamamen bu cihazda işler.\n\n• Fotoğraflar hiçbir zaman hiçbir sunucuya yüklenmez.\n• Uygulamada reklam, analitik veya izleme yoktur.\n• Hesap veya oturum açma gerekmez.\n• Kayıtlı fotoğraflar yalnızca uygulamanın özel deposunda tutulur.\n• Tek ağ erişimi, resmi hükümet kaynaklarını tarayıcınızda açmaktır.\n• Uygulamayı silmek, tüm verilerini de siler.",
+  "settingsAppearance": "Görünüm",
+  "settingsGeneral": "Genel",
+  "settingsLanguage": "Dil",
+  "settingsThemeLight": "Açık",
+  "settingsThemeDark": "Koyu",
+  "settingsThemeSystem": "Sistem",
+  "settingsPrivacyPolicy": "Gizlilik politikası",
+  "settingsTerms": "Kullanım koşulları",
+  "settingsRateApp": "Uygulamayı puanlayın",
+  "settingsClearHistory": "Tüm kayıtlı fotoğrafları sil",
+  "settingsAbout": "Hakkında",
+  "settingsVersion": "Sürüm {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "disclaimer": "Gereklilikler değişebilir. Her zaman resmi kaynağı kontrol edin. PhotoPass, kabulü garanti edemez.",
+  "exportShareHint": "Hazır fotoğrafı başka bir uygulamaya gönderir.",
+  "exportDoneShare": "Paylaşıldı.",
+  "exportFileSizeLimit": "Azami dosya boyutu: {kb} KB",
+  "@exportFileSizeLimit": {
+    "placeholders": {
+      "kb": {
+        "type": "int"
+      }
+    }
+  },
+  "homeHeadline": "Uygun pasaport fotoğrafı oluşturun",
+  "homeCreatePhoto": "Fotoğraf oluştur",
+  "homeRecentTitle": "Son eklenenler",
+  "homeFavoritesTitle": "Favoriler",
+  "homeYourPhotosTitle": "Fotoğraflarınız",
+  "homeYourPhotosEmpty": "Oluşturduğunuz fotoğraflar burada görünecek.",
+  "specFavoriteAdd": "Favorilere ekle",
+  "specFavoriteRemove": "Favorilerden kaldır",
+  "editorModeCrop": "Kırpma",
+  "editorModeBackground": "Arka plan",
+  "editorModeAdjust": "Ayarlamalar",
+  "editorReset": "Sıfırla",
+  "editorDiscardTitle": "Değişiklikler iptal edilsin mi?",
+  "editorDiscardBody": "Kırpmanız ve ayarlamalarınız kaybolacak.",
+  "editorDiscardConfirm": "İptal et",
+  "captureFlash": "Flaş",
+  "complianceActionRetake": "Fotoğrafı daha dengeli ışıkla yeniden çekin.",
+  "complianceActionBackground": "Arka planı değiştirin veya düz bir duvar önünde yeniden çekin.",
+  "complianceActionCenter": "Yüzünüzü ortala, otomatik sığdırma özelliğini kullanın, ardından yeniden çekin.",
+  "complianceActionDimensions": "Tam olarak gereken boyutu elde etmek için yeniden dışa aktarın.",
+  "complianceActionFilesize": "Boyut sınırının altında kalmak için JPEG olarak dışa aktarın.",
+  "exportAdvancedDetails": "Ayrıntılar",
+  "historyMissingPhoto": "Fotoğraf dosyası bulunamadı",
+  "swatchRequired": "Zorunlu",
+  "swatchSuggested": "Önerilen",
+  "editorCropHint": "Taşımak için sürükleyin, yakınlaştırmak için sıkıştırın.",
+  "historyReopen": "Aç",
+  "historyReopenHint": "Bu fotoğrafı düzenleyicide açar."
+}

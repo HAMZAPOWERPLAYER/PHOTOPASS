@@ -1,0 +1,230 @@
+﻿{
+  "@@locale": "ru",
+  "appTitle": "PhotoPass",
+  "navHome": "Главная",
+  "navHistory": "История",
+  "navSettings": "Настройки",
+  "onboardingPrivacyTitle": "Ваши фото никогда не покидают телефон",
+  "onboardingPrivacyBody": "PhotoPass распознаёт лица, удаляет фон и экспортирует фото полностью на вашем устройстве. Без аккаунта, без загрузки в облако и без аналитики для ваших изображений.",
+  "onboardingHowTitle": "Три простых шага",
+  "onboardingHowBody": "Выберите страну и тип документа, сделайте или выберите фото, затем экспортируйте фото, соответствующее требованиям и готовое к печати.",
+  "onboardingLanguageTitle": "Выберите язык",
+  "commonContinue": "Продолжить",
+  "commonSkip": "Пропустить",
+  "commonStart": "Начать",
+  "commonBack": "Назад",
+  "commonCancel": "Отмена",
+  "commonRetry": "Попробовать снова",
+  "commonClose": "Закрыть",
+  "errorGenericTitle": "Что-то пошло не так",
+  "errorGenericBody": "Пожалуйста, попробуйте ещё раз.",
+  "placeholderBody": "Этот экран появится на следующем этапе сборки.",
+  "homeSearchHint": "Поиск страны или документа",
+  "homePopularTitle": "Популярные",
+  "homePassport": "Загранпаспорт",
+  "homeVisa": "Виза",
+  "homeIdCard": "Удостоверение личности",
+  "homeCustomSize": "Произвольный размер",
+  "historyEmptyTitle": "Фото пока нет",
+  "historyEmptyBody": "Здесь появятся созданные вами фото.",
+  "countrySelectTitle": "Страна и документ",
+  "countrySearchHint": "Поиск страны",
+  "countryNoResults": "Подходящих стран не найдено",
+  "countryDocumentsCount": "Документов: {count}",
+  "@countryDocumentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "specSizeLabel": "Размер",
+  "specBackgroundLabel": "Фон",
+  "specDpiLabel": "Разрешение",
+  "specFormatsLabel": "Форматы",
+  "specHeadHeightLabel": "Высота головы",
+  "specEyeLineLabel": "Линия глаз от нижнего края",
+  "specGlassesAllowed": "Очки разрешены",
+  "specGlassesNotAllowed": "Очки запрещены",
+  "specMaxFileSizeLabel": "Максимальный размер файла",
+  "specVerifiedBadge": "Проверено",
+  "specUnverifiedBadge": "Не проверено",
+  "specUnverifiedNotice": "Пожалуйста, уточните в официальном источнике.",
+  "specOfficialSource": "Официальный источник",
+  "specLastVerified": "Последняя проверка: {date}",
+  "@specLastVerified": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "specUsePhoto": "Использовать это фото",
+  "specNotSpecified": "Не указано",
+  "spec_us_passport": "Паспорт США",
+  "spec_gb_passport": "Паспорт Великобритании",
+  "spec_ca_passport": "Паспорт Канады",
+  "spec_cn_visa": "Виза в Китай",
+  "spec_de_schengen_visa": "Германия — шенгенская виза",
+  "spec_fr_schengen_visa": "Франция — шенгенская виза",
+  "spec_it_schengen_visa": "Италия — шенгенская виза",
+  "spec_es_schengen_visa": "Испания — шенгенская виза",
+  "captureTitle": "Сделать фото",
+  "captureRationaleTitle": "Требуется доступ к камере",
+  "captureRationaleBody": "PhotoPass использует камеру для съёмки паспортного фото. Фото остаётся на вашем телефоне и никогда не загружается в сеть.",
+  "captureRationaleDenied": "Доступ к камере отключён. Включите его в системных настройках, чтобы сделать фото, или выберите фото из галереи.",
+  "captureRationaleAction": "Разрешить камеру",
+  "captureOpenSettings": "Открыть настройки",
+  "captureCameraError": "Не удалось запустить камеру. Вы всё ещё можете выбрать фото из галереи.",
+  "captureHintFace": "Поместите лицо в овал",
+  "captureSwitchCamera": "Переключить камеру",
+  "captureGallery": "Выбрать из галереи",
+  "editorTitle": "Редактировать фото",
+  "editorRotate": "Повернуть на 90°",
+  "editorAutoFit": "Автоподгонка по лицу",
+  "editorApply": "Обрезать фото",
+  "retouchTitle": "Фон и корректировки",
+  "retouchBackground": "Фон",
+  "retouchRemoveBackground": "Заменить фон",
+  "retouchRemoveBackgroundHint": "Заменяет однотонный фон за вами на чистый цвет.",
+  "retouchTolerance": "Порог распознавания: {value}",
+  "@retouchTolerance": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "retouchBackgroundColor": "Цвет замены",
+  "retouchAdjustments": "Корректировки",
+  "retouchBrightness": "Яркость",
+  "retouchContrast": "Контраст",
+  "retouchSaturation": "Насыщенность",
+  "retouchLocalNote": "Вся обработка выполняется на этом устройстве.",
+  "retouchApply": "Продолжить",
+  "complianceTitle": "Проверка соответствия",
+  "complianceIntro": "Эти проверки сравнивают ваше фото с официальными требованиями. Они носят рекомендательный характер и не гарантируют, что фото будет принято.",
+  "complianceContinue": "Перейти к экспорту",
+  "complianceMeasured": "Измерено",
+  "complianceDimensions": "Размер фото",
+  "complianceDimensionsDetail": "Фото должно иметь точно заданные размеры в пикселях.",
+  "complianceFace": "Обнаружено одно лицо",
+  "complianceFaceDetail": "На фото должен быть ровно один человек.",
+  "complianceHeadHeight": "Высота головы",
+  "complianceHeadHeightDetail": "Высота головы должна быть в официальном диапазоне.",
+  "complianceEyeLine": "Положение линии глаз",
+  "complianceEyeLineDetail": "Глаза должны находиться на официальной высоте от нижнего края.",
+  "complianceBackground": "Цвет и однотонность фона",
+  "complianceBackgroundDetail": "Фон должен быть однотонным и соответствовать требуемому цвету.",
+  "complianceGlasses": "Очки",
+  "complianceGlassesAllowed": "Для этого документа разрешены очки.",
+  "complianceGlassesForbidden": "Для этого документа очки не разрешены.",
+  "complianceFileSize": "Размер файла",
+  "complianceFileSizeDetail": "Размер файла должен быть меньше официального предела.",
+  "exportTitle": "Экспорт",
+  "exportSizeLabel": "{width} × {height} пикселей",
+  "@exportSizeLabel": {
+    "placeholders": {
+      "width": {
+        "type": "int"
+      },
+      "height": {
+        "type": "int"
+      }
+    }
+  },
+  "exportDetails": "{mm} мм при {dpi} DPI",
+  "@exportDetails": {
+    "placeholders": {
+      "mm": {
+        "type": "String"
+      },
+      "dpi": {
+        "type": "String"
+      }
+    }
+  },
+  "exportSavePhoto": "Сохранить фото",
+  "exportSavePhotoHint": "Сохраняет фото точного размера в вашу галерею.",
+  "exportShare": "Поделиться",
+  "exportPdf": "PDF (готово к печати)",
+  "exportPdfHint": "Одно фото точного физического размера, готовое к печати.",
+  "exportPrintSheetTitle": "Печатные листы",
+  "exportPrintSheet": "Печатный лист — {size}",
+  "@exportPrintSheet": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "exportPrintSheetHint": "Несколько фото, размещённых на одном листе фотобумаги.",
+  "exportDoneSave": "Сохранено.",
+  "exportDonePdf": "PDF готов к отправке.",
+  "exportDoneSheet": "Печатный лист готов к отправке.",
+  "exportLocalNote": "Фото создаются на этом устройстве. Ничего не загружается в сеть.",
+  "historyDelete": "Удалить",
+  "settingsPrivacy": "Конфиденциальность",
+  "settingsClearHistoryHint": "Удаляет все сохранённые фото с этого устройства.",
+  "settingsClearHistoryConfirm": "Это навсегда удалит все фото, сохранённые в приложении. Действие нельзя отменить.",
+  "settingsClearHistoryAction": "Удалить всё",
+  "privacyPolicyBody": "PhotoPass обрабатывает ваши фото полностью на этом устройстве.\n\n• Фото никогда не загружаются на серверы.\n• В приложении нет рекламы, аналитики и отслеживания.\n• Аккаунт и вход не требуются.\n• Сохранённые фото хранятся только в личном хранилище приложения.\n• Единственный сетевой доступ — открытие ссылок на официальные государственные источники в вашем браузере.\n• Удаление приложения удаляет все его данные.",
+  "settingsAppearance": "Оформление",
+  "settingsGeneral": "Общие",
+  "settingsLanguage": "Язык",
+  "settingsThemeLight": "Светлая",
+  "settingsThemeDark": "Тёмная",
+  "settingsThemeSystem": "Системная",
+  "settingsPrivacyPolicy": "Политика конфиденциальности",
+  "settingsTerms": "Условия использования",
+  "settingsRateApp": "Оценить приложение",
+  "settingsClearHistory": "Удалить все сохранённые фото",
+  "settingsAbout": "О приложении",
+  "settingsVersion": "Версия {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "disclaimer": "Требования могут меняться. Всегда проверяйте официальный источник. PhotoPass не может гарантировать принятие фото.",
+  "exportShareHint": "Отправляет готовое фото в другое приложение.",
+  "exportDoneShare": "Поделено.",
+  "exportFileSizeLimit": "Максимальный размер файла: {kb} КБ",
+  "@exportFileSizeLimit": {
+    "placeholders": {
+      "kb": {
+        "type": "int"
+      }
+    }
+  },
+  "homeHeadline": "Создайте паспортное фото, соответствующее требованиям",
+  "homeCreatePhoto": "Создать фото",
+  "homeRecentTitle": "Недавние",
+  "homeFavoritesTitle": "Избранное",
+  "homeYourPhotosTitle": "Ваши фото",
+  "homeYourPhotosEmpty": "Здесь появятся созданные вами фото.",
+  "specFavoriteAdd": "Добавить в избранное",
+  "specFavoriteRemove": "Убрать из избранного",
+  "editorModeCrop": "Обрезка",
+  "editorModeBackground": "Фон",
+  "editorModeAdjust": "Корректировка",
+  "editorReset": "Сбросить",
+  "editorDiscardTitle": "Отменить изменения?",
+  "editorDiscardBody": "Обрезка и внесённые корректировки будут потеряны.",
+  "editorDiscardConfirm": "Отменить",
+  "captureFlash": "Вспышка",
+  "complianceActionRetake": "Переснимите фото с более равномерным освещением.",
+  "complianceActionBackground": "Замените фон или переснимите на фоне однотонной стены.",
+  "complianceActionCenter": "Центрируйте лицо, используйте автоподгонку, затем переснимите фото.",
+  "complianceActionDimensions": "Выполните экспорт заново, чтобы получить точный требуемый размер.",
+  "complianceActionFilesize": "Экспортируйте в формате JPEG, чтобы не превысить допустимый размер файла.",
+  "exportAdvancedDetails": "Подробнее",
+  "historyMissingPhoto": "Файл фото отсутствует",
+  "swatchRequired": "Обязательно",
+  "swatchSuggested": "Рекомендуется",
+  "editorCropHint": "Перетаскивайте, чтобы переместить; сожмите пальцы, чтобы масштабировать.",
+  "historyReopen": "Открыть",
+  "historyReopenHint": "Открывает это фото в редакторе."
+}

@@ -1,0 +1,230 @@
+﻿{
+  "@@locale": "de",
+  "appTitle": "PhotoPass",
+  "navHome": "Start",
+  "navHistory": "Verlauf",
+  "navSettings": "Einstellungen",
+  "onboardingPrivacyTitle": "Ihre Fotos verlassen Ihr Handy nie",
+  "onboardingPrivacyBody": "PhotoPass erkennt Gesichter, entfernt den Hintergrund und exportiert Ihr Foto vollständig auf Ihrem Gerät. Kein Konto, kein Cloud-Upload und keine Analyse Ihrer Bilder.",
+  "onboardingHowTitle": "Drei einfache Schritte",
+  "onboardingHowBody": "Wählen Sie Ihr Land und den Dokumenttyp, nehmen Sie ein Foto auf oder wählen Sie eines aus und exportieren Sie dann ein konformes, druckfertiges Bild.",
+  "onboardingLanguageTitle": "Sprache wählen",
+  "commonContinue": "Weiter",
+  "commonSkip": "Überspringen",
+  "commonStart": "Loslegen",
+  "commonBack": "Zurück",
+  "commonCancel": "Abbrechen",
+  "commonRetry": "Erneut versuchen",
+  "commonClose": "Schließen",
+  "errorGenericTitle": "Etwas ist schief gelaufen",
+  "errorGenericBody": "Bitte versuchen Sie es erneut.",
+  "placeholderBody": "Dieser Bildschirm folgt in einer späteren Build-Phase.",
+  "homeSearchHint": "Land oder Dokument suchen",
+  "homePopularTitle": "Beliebt",
+  "homePassport": "Reisepass",
+  "homeVisa": "Visum",
+  "homeIdCard": "Ausweis",
+  "homeCustomSize": "Benutzerdefinierte Größe",
+  "historyEmptyTitle": "Noch keine Fotos",
+  "historyEmptyBody": "Die Fotos, die Sie erstellen, erscheinen hier.",
+  "countrySelectTitle": "Land und Dokument",
+  "countrySearchHint": "Land suchen",
+  "countryNoResults": "Keine passenden Länder",
+  "countryDocumentsCount": "{count} Dokumente",
+  "@countryDocumentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "specSizeLabel": "Größe",
+  "specBackgroundLabel": "Hintergrund",
+  "specDpiLabel": "Auflösung",
+  "specFormatsLabel": "Formate",
+  "specHeadHeightLabel": "Kopfhöhe",
+  "specEyeLineLabel": "Augenhöhe vom unteren Rand",
+  "specGlassesAllowed": "Brille erlaubt",
+  "specGlassesNotAllowed": "Brille nicht erlaubt",
+  "specMaxFileSizeLabel": "Maximale Dateigröße",
+  "specVerifiedBadge": "Geprüft",
+  "specUnverifiedBadge": "Nicht geprüft",
+  "specUnverifiedNotice": "Bitte bestätigen Sie dies bei der offiziellen Quelle.",
+  "specOfficialSource": "Offizielle Quelle",
+  "specLastVerified": "Zuletzt geprüft: {date}",
+  "@specLastVerified": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "specUsePhoto": "Dieses Foto verwenden",
+  "specNotSpecified": "Nicht angegeben",
+  "spec_us_passport": "US-amerikanischer Reisepass",
+  "spec_gb_passport": "Reisepass des Vereinigten Königreichs",
+  "spec_ca_passport": "Kanadischer Reisepass",
+  "spec_cn_visa": "Chinesisches Visum",
+  "spec_de_schengen_visa": "Deutschland — Schengen-Visum",
+  "spec_fr_schengen_visa": "Frankreich — Schengen-Visum",
+  "spec_it_schengen_visa": "Italien — Schengen-Visum",
+  "spec_es_schengen_visa": "Spanien — Schengen-Visum",
+  "captureTitle": "Foto aufnehmen",
+  "captureRationaleTitle": "Kamerazugriff erforderlich",
+  "captureRationaleBody": "PhotoPass verwendet Ihre Kamera, um ein Passfoto zu erstellen. Das Foto bleibt auf Ihrem Handy und wird nie hochgeladen.",
+  "captureRationaleDenied": "Der Kamerazugriff ist deaktiviert. Aktivieren Sie ihn in den Systemeinstellungen, um ein Foto aufzunehmen, oder wählen Sie eines aus Ihrer Galerie aus.",
+  "captureRationaleAction": "Kamera zulassen",
+  "captureOpenSettings": "Einstellungen öffnen",
+  "captureCameraError": "Die Kamera konnte nicht gestartet werden. Sie können weiterhin ein Foto aus Ihrer Galerie auswählen.",
+  "captureHintFace": "Positionieren Sie Ihr Gesicht innerhalb des Ovals",
+  "captureSwitchCamera": "Kamera wechseln",
+  "captureGallery": "Aus Galerie auswählen",
+  "editorTitle": "Foto bearbeiten",
+  "editorRotate": "Um 90° drehen",
+  "editorAutoFit": "Automatisch an Gesicht anpassen",
+  "editorApply": "Foto zuschneiden",
+  "retouchTitle": "Hintergrund und Anpassungen",
+  "retouchBackground": "Hintergrund",
+  "retouchRemoveBackground": "Hintergrund ersetzen",
+  "retouchRemoveBackgroundHint": "Füllt den einfarbigen Hintergrund hinter Ihnen mit einer sauberen Farbe.",
+  "retouchTolerance": "Erkennungstoleranz: {value}",
+  "@retouchTolerance": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "retouchBackgroundColor": "Ersatzfarbe",
+  "retouchAdjustments": "Anpassungen",
+  "retouchBrightness": "Helligkeit",
+  "retouchContrast": "Kontrast",
+  "retouchSaturation": "Sättigung",
+  "retouchLocalNote": "Die gesamte Verarbeitung erfolgt auf diesem Gerät.",
+  "retouchApply": "Weiter",
+  "complianceTitle": "Konformitätsprüfung",
+  "complianceIntro": "Diese Prüfungen vergleichen Ihr Foto mit den offiziellen Anforderungen. Sie dienen als Orientierung und sind keine Garantie für die Anerkennung.",
+  "complianceContinue": "Weiter zum Export",
+  "complianceMeasured": "Gemessen",
+  "complianceDimensions": "Fotogröße",
+  "complianceDimensionsDetail": "Das Foto muss exakt die erforderlichen Pixelmaße haben.",
+  "complianceFace": "Ein Gesicht erkannt",
+  "complianceFaceDetail": "Das Foto darf genau eine Person enthalten.",
+  "complianceHeadHeight": "Kopfhöhe",
+  "complianceHeadHeightDetail": "Die Kopfhöhe muss innerhalb des offiziellen Bereichs liegen.",
+  "complianceEyeLine": "Position der Augenhöhe",
+  "complianceEyeLineDetail": "Die Augen müssen sich auf der offiziellen Höhe über dem unteren Rand befinden.",
+  "complianceBackground": "Hintergrundfarbe und Gleichmäßigkeit",
+  "complianceBackgroundDetail": "Der Hintergrund muss einfarbig sein und der erforderlichen Farbe entsprechen.",
+  "complianceGlasses": "Brille",
+  "complianceGlassesAllowed": "Für dieses Dokument ist eine Brille erlaubt.",
+  "complianceGlassesForbidden": "Für dieses Dokument ist keine Brille erlaubt.",
+  "complianceFileSize": "Dateigröße",
+  "complianceFileSizeDetail": "Die Datei muss unter der offiziellen Größenbeschränkung bleiben.",
+  "exportTitle": "Exportieren",
+  "exportSizeLabel": "{width} × {height} Pixel",
+  "@exportSizeLabel": {
+    "placeholders": {
+      "width": {
+        "type": "int"
+      },
+      "height": {
+        "type": "int"
+      }
+    }
+  },
+  "exportDetails": "{mm} mm bei {dpi} DPI",
+  "@exportDetails": {
+    "placeholders": {
+      "mm": {
+        "type": "String"
+      },
+      "dpi": {
+        "type": "String"
+      }
+    }
+  },
+  "exportSavePhoto": "Foto speichern",
+  "exportSavePhotoHint": "Speichert das Foto in exakter Größe in Ihrer Galerie.",
+  "exportShare": "Teilen",
+  "exportPdf": "PDF (druckfertig)",
+  "exportPdfHint": "Ein Foto in exakter physischer Größe, druckbereit.",
+  "exportPrintSheetTitle": "Druckbögen",
+  "exportPrintSheet": "Druckbogen — {size}",
+  "@exportPrintSheet": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "exportPrintSheetHint": "Mehrere Fotos, angeordnet auf einem Blatt Fotopapier.",
+  "exportDoneSave": "Gespeichert.",
+  "exportDonePdf": "PDF bereit zum Teilen.",
+  "exportDoneSheet": "Druckbogen bereit zum Teilen.",
+  "exportLocalNote": "Die Fotos werden auf diesem Gerät erstellt. Nichts wird hochgeladen.",
+  "historyDelete": "Löschen",
+  "settingsPrivacy": "Datenschutz",
+  "settingsClearHistoryHint": "Löscht alle gespeicherten Fotos von diesem Gerät.",
+  "settingsClearHistoryConfirm": "Dies löscht dauerhaft alle in der App gespeicherten Fotos. Dies kann nicht rückgängig gemacht werden.",
+  "settingsClearHistoryAction": "Alles löschen",
+  "privacyPolicyBody": "PhotoPass verarbeitet Ihre Fotos vollständig auf diesem Gerät.\n\n• Fotos werden nie auf einen Server hochgeladen.\n• Die App enthält keine Werbung, keine Analyse und kein Tracking.\n• Es ist kein Konto und keine Anmeldung erforderlich.\n• Gespeicherte Fotos liegen ausschließlich im privaten Speicher der App.\n• Der einzige Netzzugriff besteht darin, Links zu offiziellen Regierungsquellen in Ihrem Browser zu öffnen.\n• Das Löschen der App entfernt alle Daten der App.",
+  "settingsAppearance": "Erscheinungsbild",
+  "settingsGeneral": "Allgemein",
+  "settingsLanguage": "Sprache",
+  "settingsThemeLight": "Hell",
+  "settingsThemeDark": "Dunkel",
+  "settingsThemeSystem": "System",
+  "settingsPrivacyPolicy": "Datenschutzerklärung",
+  "settingsTerms": "Nutzungsbedingungen",
+  "settingsRateApp": "App bewerten",
+  "settingsClearHistory": "Alle gespeicherten Fotos löschen",
+  "settingsAbout": "Info",
+  "settingsVersion": "Version {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "disclaimer": "Die Anforderungen können sich ändern. Prüfen Sie immer die offizielle Quelle. PhotoPass kann die Anerkennung nicht garantieren.",
+  "exportShareHint": "Sendet das fertige Foto an eine andere App.",
+  "exportDoneShare": "Geteilt.",
+  "exportFileSizeLimit": "Maximale Dateigröße: {kb} KB",
+  "@exportFileSizeLimit": {
+    "placeholders": {
+      "kb": {
+        "type": "int"
+      }
+    }
+  },
+  "homeHeadline": "Erstellen Sie ein konformes Passfoto",
+  "homeCreatePhoto": "Foto erstellen",
+  "homeRecentTitle": "Zuletzt",
+  "homeFavoritesTitle": "Favoriten",
+  "homeYourPhotosTitle": "Ihre Fotos",
+  "homeYourPhotosEmpty": "Die Fotos, die Sie erstellen, erscheinen hier.",
+  "specFavoriteAdd": "Zu Favoriten hinzufügen",
+  "specFavoriteRemove": "Aus Favoriten entfernen",
+  "editorModeCrop": "Zuschneiden",
+  "editorModeBackground": "Hintergrund",
+  "editorModeAdjust": "Anpassen",
+  "editorReset": "Zurücksetzen",
+  "editorDiscardTitle": "Änderungen verwerfen?",
+  "editorDiscardBody": "Ihr Zuschnitt und Ihre Anpassungen gehen verloren.",
+  "editorDiscardConfirm": "Verwerfen",
+  "captureFlash": "Blitz",
+  "complianceActionRetake": "Machen Sie das Foto mit gleichmäßigerem Licht erneut.",
+  "complianceActionBackground": "Ersetzen Sie den Hintergrund oder machen Sie das Foto vor einer einfarbigen Wand erneut.",
+  "complianceActionCenter": "Setzen Sie Ihr Gesicht in die Mitte, nutzen Sie die automatische Anpassung und nehmen Sie dann ein neues Foto auf.",
+  "complianceActionDimensions": "Exportieren Sie das Foto erneut, um die exakt erforderliche Größe zu erzeugen.",
+  "complianceActionFilesize": "Exportieren Sie als JPEG, um unter der Größenbeschränkung zu bleiben.",
+  "exportAdvancedDetails": "Details",
+  "historyMissingPhoto": "Fotodatei fehlt",
+  "swatchRequired": "Erforderlich",
+  "swatchSuggested": "Empfohlen",
+  "editorCropHint": "Ziehen zum Verschieben, mit zwei Fingern zusammenziehen zum Zoomen.",
+  "historyReopen": "Öffnen",
+  "historyReopenHint": "Öffnet dieses Foto im Editor."
+}

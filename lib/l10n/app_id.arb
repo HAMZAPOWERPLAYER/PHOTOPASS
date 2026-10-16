@@ -1,0 +1,230 @@
+﻿{
+  "@@locale": "id",
+  "appTitle": "PhotoPass",
+  "navHome": "Beranda",
+  "navHistory": "Riwayat",
+  "navSettings": "Pengaturan",
+  "onboardingPrivacyTitle": "Foto Anda tidak pernah meninggalkan ponsel Anda",
+  "onboardingPrivacyBody": "PhotoPass mendeteksi wajah, menghapus latar belakang, dan mengekspor foto sepenuhnya di perangkat Anda. Tanpa akun, tanpa unggahan cloud, dan tanpa analitik pada gambar Anda.",
+  "onboardingHowTitle": "Tiga langkah sederhana",
+  "onboardingHowBody": "Pilih negara dan jenis dokumen, ambil atau pilih foto, lalu ekspor gambar yang sesuai standar dan siap cetak.",
+  "onboardingLanguageTitle": "Pilih bahasa Anda",
+  "commonContinue": "Lanjutkan",
+  "commonSkip": "Lewati",
+  "commonStart": "Mulai",
+  "commonBack": "Kembali",
+  "commonCancel": "Batal",
+  "commonRetry": "Coba lagi",
+  "commonClose": "Tutup",
+  "errorGenericTitle": "Terjadi kesalahan",
+  "errorGenericBody": "Silakan coba lagi.",
+  "placeholderBody": "Layar ini akan hadir pada tahap pembangunan berikutnya.",
+  "homeSearchHint": "Cari negara atau dokumen",
+  "homePopularTitle": "Populer",
+  "homePassport": "Paspor",
+  "homeVisa": "Visa",
+  "homeIdCard": "Kartu identitas",
+  "homeCustomSize": "Ukuran kustom",
+  "historyEmptyTitle": "Belum ada foto",
+  "historyEmptyBody": "Foto yang Anda buat akan muncul di sini.",
+  "countrySelectTitle": "Negara & dokumen",
+  "countrySearchHint": "Cari negara",
+  "countryNoResults": "Tidak ada negara yang cocok",
+  "countryDocumentsCount": "{count} dokumen",
+  "@countryDocumentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "specSizeLabel": "Ukuran",
+  "specBackgroundLabel": "Latar belakang",
+  "specDpiLabel": "Resolusi",
+  "specFormatsLabel": "Format",
+  "specHeadHeightLabel": "Tinggi kepala",
+  "specEyeLineLabel": "Garis mata dari dasar",
+  "specGlassesAllowed": "Kacamata diizinkan",
+  "specGlassesNotAllowed": "Kacamata tidak diizinkan",
+  "specMaxFileSizeLabel": "Ukuran berkas maksimum",
+  "specVerifiedBadge": "Terverifikasi",
+  "specUnverifiedBadge": "Belum terverifikasi",
+  "specUnverifiedNotice": "Harap konfirmasikan ke sumber resmi.",
+  "specOfficialSource": "Sumber resmi",
+  "specLastVerified": "Terakhir diverifikasi {date}",
+  "@specLastVerified": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "specUsePhoto": "Gunakan foto ini",
+  "specNotSpecified": "Tidak ditentukan",
+  "spec_us_passport": "Paspor Amerika Serikat",
+  "spec_gb_passport": "Paspor Britania Raya",
+  "spec_ca_passport": "Paspor Kanada",
+  "spec_cn_visa": "Visa Tiongkok",
+  "spec_de_schengen_visa": "Jerman — visa Schengen",
+  "spec_fr_schengen_visa": "Prancis — visa Schengen",
+  "spec_it_schengen_visa": "Italia — visa Schengen",
+  "spec_es_schengen_visa": "Spanyol — visa Schengen",
+  "captureTitle": "Ambil foto",
+  "captureRationaleTitle": "Akses kamera diperlukan",
+  "captureRationaleBody": "PhotoPass menggunakan kamera Anda untuk mengambil foto paspor. Foto tetap di ponsel Anda dan tidak pernah diunggah.",
+  "captureRationaleDenied": "Akses kamera dinonaktifkan. Aktifkan di pengaturan sistem untuk mengambil foto, atau pilih foto dari galeri Anda.",
+  "captureRationaleAction": "Izinkan kamera",
+  "captureOpenSettings": "Buka pengaturan",
+  "captureCameraError": "Tidak dapat memulai kamera. Anda tetap dapat memilih foto dari galeri Anda.",
+  "captureHintFace": "Posisikan wajah Anda di dalam oval",
+  "captureSwitchCamera": "Ganti kamera",
+  "captureGallery": "Pilih dari galeri",
+  "editorTitle": "Edit foto",
+  "editorRotate": "Putar 90°",
+  "editorAutoFit": "Sesuaikan otomatis ke wajah",
+  "editorApply": "Pangkas foto",
+  "retouchTitle": "Latar belakang & penyesuaian",
+  "retouchBackground": "Latar belakang",
+  "retouchRemoveBackground": "Ganti latar belakang",
+  "retouchRemoveBackgroundHint": "Mengisi latar belakang polos di belakang Anda dengan warna yang bersih.",
+  "retouchTolerance": "Toleransi deteksi: {value}",
+  "@retouchTolerance": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "retouchBackgroundColor": "Warna pengganti",
+  "retouchAdjustments": "Penyesuaian",
+  "retouchBrightness": "Kecerahan",
+  "retouchContrast": "Kontras",
+  "retouchSaturation": "Warna",
+  "retouchLocalNote": "Semua pemrosesan terjadi di perangkat ini.",
+  "retouchApply": "Lanjutkan",
+  "complianceTitle": "Pemeriksaan kepatuhan",
+  "complianceIntro": "Pemeriksaan ini membandingkan foto Anda dengan persyaratan resmi. Ini adalah panduan, bukan jaminan diterima.",
+  "complianceContinue": "Lanjutkan ke ekspor",
+  "complianceMeasured": "Terkukur",
+  "complianceDimensions": "Ukuran foto",
+  "complianceDimensionsDetail": "Foto harus memiliki dimensi piksel yang persis sesuai ketentuan.",
+  "complianceFace": "Satu wajah terdeteksi",
+  "complianceFaceDetail": "Foto harus berisi tepat satu orang.",
+  "complianceHeadHeight": "Tinggi kepala",
+  "complianceHeadHeightDetail": "Tinggi kepala harus berada dalam rentang resmi.",
+  "complianceEyeLine": "Posisi garis mata",
+  "complianceEyeLineDetail": "Mata harus berada pada tinggi resmi dari dasar.",
+  "complianceBackground": "Warna & keseragaman latar belakang",
+  "complianceBackgroundDetail": "Latar belakang harus polos dan sesuai dengan warna yang dipersyaratkan.",
+  "complianceGlasses": "Kacamata",
+  "complianceGlassesAllowed": "Kacamata diizinkan untuk dokumen ini.",
+  "complianceGlassesForbidden": "Kacamata tidak diizinkan untuk dokumen ini.",
+  "complianceFileSize": "Ukuran berkas",
+  "complianceFileSizeDetail": "Berkas harus tetap di bawah batas ukuran resmi.",
+  "exportTitle": "Ekspor",
+  "exportSizeLabel": "{width} × {height} piksel",
+  "@exportSizeLabel": {
+    "placeholders": {
+      "width": {
+        "type": "int"
+      },
+      "height": {
+        "type": "int"
+      }
+    }
+  },
+  "exportDetails": "{mm} mm pada {dpi} DPI",
+  "@exportDetails": {
+    "placeholders": {
+      "mm": {
+        "type": "String"
+      },
+      "dpi": {
+        "type": "String"
+      }
+    }
+  },
+  "exportSavePhoto": "Simpan foto",
+  "exportSavePhotoHint": "Menyimpan foto berukuran persis ke galeri Anda.",
+  "exportShare": "Bagikan",
+  "exportPdf": "PDF (siap cetak)",
+  "exportPdfHint": "Satu foto dengan ukuran fisik persis, siap dicetak.",
+  "exportPrintSheetTitle": "Lembar cetak",
+  "exportPrintSheet": "Lembar cetak — {size}",
+  "@exportPrintSheet": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "exportPrintSheetHint": "Beberapa foto disusun di atas satu lembar kertas foto.",
+  "exportDoneSave": "Tersimpan.",
+  "exportDonePdf": "PDF siap dibagikan.",
+  "exportDoneSheet": "Lembar cetak siap dibagikan.",
+  "exportLocalNote": "Foto dibuat di perangkat ini. Tidak ada yang diunggah.",
+  "historyDelete": "Hapus",
+  "settingsPrivacy": "Privasi",
+  "settingsClearHistoryHint": "Menghapus semua foto tersimpan dari perangkat ini.",
+  "settingsClearHistoryConfirm": "Tindakan ini menghapus permanen setiap foto yang disimpan di aplikasi. Tindakan ini tidak dapat dibatalkan.",
+  "settingsClearHistoryAction": "Hapus semuanya",
+  "privacyPolicyBody": "PhotoPass memproses foto Anda sepenuhnya di perangkat ini.\n\n• Foto tidak pernah diunggah ke server mana pun.\n• Aplikasi ini tidak berisi iklan, analitik, atau pelacakan.\n• Tidak diperlukan akun atau login.\n• Foto tersimpan hanya berada di penyimpanan pribadi aplikasi.\n• Satu-satunya akses jaringan adalah membuka tautan sumber resmi pemerintah di browser Anda.\n• Menghapus aplikasi menghapus semua datanya.",
+  "settingsAppearance": "Tampilan",
+  "settingsGeneral": "Umum",
+  "settingsLanguage": "Bahasa",
+  "settingsThemeLight": "Terang",
+  "settingsThemeDark": "Gelap",
+  "settingsThemeSystem": "Sistem",
+  "settingsPrivacyPolicy": "Kebijakan privasi",
+  "settingsTerms": "Ketentuan penggunaan",
+  "settingsRateApp": "Beri rating aplikasi",
+  "settingsClearHistory": "Hapus semua foto tersimpan",
+  "settingsAbout": "Tentang",
+  "settingsVersion": "Versi {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "disclaimer": "Persyaratan dapat berubah. Selalu periksa sumber resmi. PhotoPass tidak dapat menjamin penerimaan.",
+  "exportShareHint": "Mengirim foto yang selesai ke aplikasi lain.",
+  "exportDoneShare": "Dibagikan.",
+  "exportFileSizeLimit": "Ukuran berkas maksimum: {kb} KB",
+  "@exportFileSizeLimit": {
+    "placeholders": {
+      "kb": {
+        "type": "int"
+      }
+    }
+  },
+  "homeHeadline": "Buat foto paspor yang sesuai standar",
+  "homeCreatePhoto": "Buat foto",
+  "homeRecentTitle": "Terbaru",
+  "homeFavoritesTitle": "Favorit",
+  "homeYourPhotosTitle": "Foto Anda",
+  "homeYourPhotosEmpty": "Foto yang Anda buat akan muncul di sini.",
+  "specFavoriteAdd": "Tambahkan ke favorit",
+  "specFavoriteRemove": "Hapus dari favorit",
+  "editorModeCrop": "Pangkas",
+  "editorModeBackground": "Latar belakang",
+  "editorModeAdjust": "Sesuaikan",
+  "editorReset": "Atur ulang",
+  "editorDiscardTitle": "Buang perubahan?",
+  "editorDiscardBody": "Pangkasan dan penyesuaian Anda akan hilang.",
+  "editorDiscardConfirm": "Buang",
+  "captureFlash": "Lampu kilat",
+  "complianceActionRetake": "Ambil ulang foto dengan pencahayaan yang lebih merata.",
+  "complianceActionBackground": "Ganti latar belakang atau ambil ulang di depan dinding polos.",
+  "complianceActionCenter": "Pusatkan wajah Anda, gunakan penyesuaian otomatis, lalu ambil ulang.",
+  "complianceActionDimensions": "Ekspor ulang untuk menghasilkan ukuran yang persis sesuai ketentuan.",
+  "complianceActionFilesize": "Ekspor sebagai JPEG agar tetap di bawah batas ukuran.",
+  "exportAdvancedDetails": "Detail",
+  "historyMissingPhoto": "Berkas foto tidak ditemukan",
+  "swatchRequired": "Wajib",
+  "swatchSuggested": "Disarankan",
+  "editorCropHint": "Seret untuk menggeser, cubit untuk memperbesar.",
+  "historyReopen": "Buka",
+  "historyReopenHint": "Membuka foto ini di penyunting."
+}

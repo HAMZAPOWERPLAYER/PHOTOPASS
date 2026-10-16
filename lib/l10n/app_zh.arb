@@ -1,0 +1,230 @@
+﻿{
+  "@@locale": "zh",
+  "appTitle": "PhotoPass",
+  "navHome": "首页",
+  "navHistory": "历史",
+  "navSettings": "设置",
+  "onboardingPrivacyTitle": "您的照片绝不会离开您的手机",
+  "onboardingPrivacyBody": "PhotoPass 在您的设备上完成人脸检测、背景移除和照片导出。无需账号，不上传云端，也不会对您的图片进行任何分析。",
+  "onboardingHowTitle": "三个简单步骤",
+  "onboardingHowBody": "选择您的国家和证件类型，拍摄或选择一张照片，然后导出符合要求、可直接打印的图像。",
+  "onboardingLanguageTitle": "选择语言",
+  "commonContinue": "继续",
+  "commonSkip": "跳过",
+  "commonStart": "开始使用",
+  "commonBack": "返回",
+  "commonCancel": "取消",
+  "commonRetry": "重试",
+  "commonClose": "关闭",
+  "errorGenericTitle": "出了点问题",
+  "errorGenericBody": "请重试。",
+  "placeholderBody": "此屏幕将在后续构建阶段推出。",
+  "homeSearchHint": "搜索国家或证件",
+  "homePopularTitle": "热门",
+  "homePassport": "护照",
+  "homeVisa": "签证",
+  "homeIdCard": "身份证",
+  "homeCustomSize": "自定义尺寸",
+  "historyEmptyTitle": "还没有照片",
+  "historyEmptyBody": "您创建的照片将显示在这里。",
+  "countrySelectTitle": "国家与证件",
+  "countrySearchHint": "搜索国家",
+  "countryNoResults": "没有匹配的国家",
+  "countryDocumentsCount": "{count} 种证件",
+  "@countryDocumentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "specSizeLabel": "尺寸",
+  "specBackgroundLabel": "背景",
+  "specDpiLabel": "分辨率",
+  "specFormatsLabel": "格式",
+  "specHeadHeightLabel": "头部高度",
+  "specEyeLineLabel": "眼睛距底部的高度",
+  "specGlassesAllowed": "允许戴眼镜",
+  "specGlassesNotAllowed": "不允许戴眼镜",
+  "specMaxFileSizeLabel": "最大文件大小",
+  "specVerifiedBadge": "已核实",
+  "specUnverifiedBadge": "未核实",
+  "specUnverifiedNotice": "请向官方来源确认。",
+  "specOfficialSource": "官方来源",
+  "specLastVerified": "最后核实于 {date}",
+  "@specLastVerified": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "specUsePhoto": "使用此照片",
+  "specNotSpecified": "未注明",
+  "spec_us_passport": "美国护照",
+  "spec_gb_passport": "英国护照",
+  "spec_ca_passport": "加拿大护照",
+  "spec_cn_visa": "中国签证",
+  "spec_de_schengen_visa": "德国 — 申根签证",
+  "spec_fr_schengen_visa": "法国 — 申根签证",
+  "spec_it_schengen_visa": "意大利 — 申根签证",
+  "spec_es_schengen_visa": "西班牙 — 申根签证",
+  "captureTitle": "拍摄照片",
+  "captureRationaleTitle": "需要相机权限",
+  "captureRationaleBody": "PhotoPass 使用您的相机拍摄护照照片。照片始终保存在您的手机上，绝不会被上传。",
+  "captureRationaleDenied": "相机权限已被关闭。请在系统设置中启用它以便拍摄照片，或从相册中选择一张。",
+  "captureRationaleAction": "允许使用相机",
+  "captureOpenSettings": "打开设置",
+  "captureCameraError": "无法启动相机。您仍然可以从相册中选择照片。",
+  "captureHintFace": "将面部置于椭圆框内",
+  "captureSwitchCamera": "切换相机",
+  "captureGallery": "从相册选择",
+  "editorTitle": "编辑照片",
+  "editorRotate": "旋转 90°",
+  "editorAutoFit": "自动对齐面部",
+  "editorApply": "裁剪照片",
+  "retouchTitle": "背景与调整",
+  "retouchBackground": "背景",
+  "retouchRemoveBackground": "更换背景",
+  "retouchRemoveBackgroundHint": "将您身后的纯色背景替换为干净的颜色。",
+  "retouchTolerance": "检测容差：{value}",
+  "@retouchTolerance": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "retouchBackgroundColor": "替换颜色",
+  "retouchAdjustments": "调整",
+  "retouchBrightness": "亮度",
+  "retouchContrast": "对比度",
+  "retouchSaturation": "饱和度",
+  "retouchLocalNote": "所有处理均在此设备上完成。",
+  "retouchApply": "继续",
+  "complianceTitle": "合规检查",
+  "complianceIntro": "这些检查会将您的照片与官方要求进行比对。它们仅供参考，并不能保证被受理。",
+  "complianceContinue": "继续导出",
+  "complianceMeasured": "测量结果",
+  "complianceDimensions": "照片尺寸",
+  "complianceDimensionsDetail": "照片必须与要求的像素尺寸完全一致。",
+  "complianceFace": "检测到一张面孔",
+  "complianceFaceDetail": "照片中必须恰好有一个人。",
+  "complianceHeadHeight": "头部高度",
+  "complianceHeadHeightDetail": "头部高度必须在官方规定的范围内。",
+  "complianceEyeLine": "眼睛位置",
+  "complianceEyeLineDetail": "眼睛必须位于距底部官方规定高度的位置。",
+  "complianceBackground": "背景颜色与均匀度",
+  "complianceBackgroundDetail": "背景必须为纯色，并与要求的颜色一致。",
+  "complianceGlasses": "眼镜",
+  "complianceGlassesAllowed": "此证件允许佩戴眼镜。",
+  "complianceGlassesForbidden": "此证件不允许佩戴眼镜。",
+  "complianceFileSize": "文件大小",
+  "complianceFileSizeDetail": "文件大小必须在官方限制范围内。",
+  "exportTitle": "导出",
+  "exportSizeLabel": "{width} × {height} 像素",
+  "@exportSizeLabel": {
+    "placeholders": {
+      "width": {
+        "type": "int"
+      },
+      "height": {
+        "type": "int"
+      }
+    }
+  },
+  "exportDetails": "{mm} 毫米，{dpi} DPI",
+  "@exportDetails": {
+    "placeholders": {
+      "mm": {
+        "type": "String"
+      },
+      "dpi": {
+        "type": "String"
+      }
+    }
+  },
+  "exportSavePhoto": "保存照片",
+  "exportSavePhotoHint": "将精确尺寸的照片保存到相册。",
+  "exportShare": "分享",
+  "exportPdf": "PDF（可直接打印）",
+  "exportPdfHint": "包含一张精确实际尺寸的照片，可直接打印。",
+  "exportPrintSheetTitle": "打印拼版",
+  "exportPrintSheet": "打印拼版 — {size}",
+  "@exportPrintSheet": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "exportPrintSheetHint": "在一张相纸上排列多张照片。",
+  "exportDoneSave": "已保存。",
+  "exportDonePdf": "PDF 已可分享。",
+  "exportDoneSheet": "打印拼版已可分享。",
+  "exportLocalNote": "照片在此设备上生成，不会上传任何内容。",
+  "historyDelete": "删除",
+  "settingsPrivacy": "隐私",
+  "settingsClearHistoryHint": "删除此设备上保存的所有照片。",
+  "settingsClearHistoryConfirm": "这将永久删除应用中保存的每一张照片，且无法撤销。",
+  "settingsClearHistoryAction": "全部删除",
+  "privacyPolicyBody": "PhotoPass 完全在此设备上处理您的照片。\n\n• 照片绝不会上传到任何服务器。\n• 应用不含广告、数据分析或跟踪。\n• 无需账号或登录。\n• 保存的照片仅存储在应用的私有存储中。\n• 唯一的网络访问是在浏览器中打开官方政府来源的链接。\n• 删除应用会移除其全部数据。",
+  "settingsAppearance": "外观",
+  "settingsGeneral": "通用",
+  "settingsLanguage": "语言",
+  "settingsThemeLight": "浅色",
+  "settingsThemeDark": "深色",
+  "settingsThemeSystem": "跟随系统",
+  "settingsPrivacyPolicy": "隐私政策",
+  "settingsTerms": "使用条款",
+  "settingsRateApp": "给应用评分",
+  "settingsClearHistory": "删除所有已保存的照片",
+  "settingsAbout": "关于",
+  "settingsVersion": "版本 {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "disclaimer": "要求可能会变更。请务必查阅官方来源。PhotoPass 无法保证照片被受理。",
+  "exportShareHint": "将完成的照片发送到其他应用。",
+  "exportDoneShare": "已分享。",
+  "exportFileSizeLimit": "最大文件大小：{kb} KB",
+  "@exportFileSizeLimit": {
+    "placeholders": {
+      "kb": {
+        "type": "int"
+      }
+    }
+  },
+  "homeHeadline": "制作符合要求的护照照片",
+  "homeCreatePhoto": "创建照片",
+  "homeRecentTitle": "最近",
+  "homeFavoritesTitle": "收藏",
+  "homeYourPhotosTitle": "您的照片",
+  "homeYourPhotosEmpty": "您创建的照片将显示在这里。",
+  "specFavoriteAdd": "添加到收藏",
+  "specFavoriteRemove": "从收藏中移除",
+  "editorModeCrop": "裁剪",
+  "editorModeBackground": "背景",
+  "editorModeAdjust": "调整",
+  "editorReset": "重置",
+  "editorDiscardTitle": "放弃更改？",
+  "editorDiscardBody": "您的裁剪和调整将会丢失。",
+  "editorDiscardConfirm": "放弃",
+  "captureFlash": "闪光灯",
+  "complianceActionRetake": "使用更均匀的光线重新拍摄。",
+  "complianceActionBackground": "更换背景，或在素色墙面前重新拍摄。",
+  "complianceActionCenter": "将面部置于中央，使用自动对齐，然后重新拍摄。",
+  "complianceActionDimensions": "重新导出以获得准确的所需尺寸。",
+  "complianceActionFilesize": "以 JPEG 格式导出以保持在大小限制内。",
+  "exportAdvancedDetails": "详情",
+  "historyMissingPhoto": "照片文件缺失",
+  "swatchRequired": "必需",
+  "swatchSuggested": "建议",
+  "editorCropHint": "拖动以移动，双指捏合以缩放。",
+  "historyReopen": "打开",
+  "historyReopenHint": "在编辑器中打开此照片。"
+}

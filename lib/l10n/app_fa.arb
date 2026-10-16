@@ -1,0 +1,230 @@
+﻿{
+  "@@locale": "fa",
+  "appTitle": "PhotoPass",
+  "navHome": "خانه",
+  "navHistory": "تاریخچه",
+  "navSettings": "تنظیمات",
+  "onboardingPrivacyTitle": "عکس‌های شما هرگز گوشی‌تان را ترک نمی‌کنند",
+  "onboardingPrivacyBody": "فوتوپس چهره‌ها را تشخیص می‌دهد، پس‌زمینه را حذف می‌کند و عکس شما را کاملاً روی دستگاه خودتان خروجی می‌دهد. بدون حساب، بدون بارگذاری ابری و بدون تحلیل روی تصاویر شما.",
+  "onboardingHowTitle": "سه مرحله ساده",
+  "onboardingHowBody": "کشور و نوع سند خود را انتخاب کنید، عکسی بگیرید یا از گالری انتخاب کنید و سپس یک عکس منطبق و آماده چاپ خروجی بگیرید.",
+  "onboardingLanguageTitle": "زبان خود را انتخاب کنید",
+  "commonContinue": "ادامه",
+  "commonSkip": "رد کردن",
+  "commonStart": "شروع",
+  "commonBack": "بازگشت",
+  "commonCancel": "انصراف",
+  "commonRetry": "تلاش دوباره",
+  "commonClose": "بستن",
+  "errorGenericTitle": "مشکلی پیش آمد",
+  "errorGenericBody": "لطفاً دوباره تلاش کنید.",
+  "placeholderBody": "این صفحه در مرحله بعدی ساخت ارائه می‌شود.",
+  "homeSearchHint": "جستجوی کشور یا سند",
+  "homePopularTitle": "محبوب‌ها",
+  "homePassport": "گذرنامه",
+  "homeVisa": "ویزا",
+  "homeIdCard": "کارت شناسایی",
+  "homeCustomSize": "اندازه دلخواه",
+  "historyEmptyTitle": "هنوز عکسی وجود ندارد",
+  "historyEmptyBody": "عکس‌هایی که می‌سازید اینجا نمایش داده می‌شوند.",
+  "countrySelectTitle": "کشور و سند",
+  "countrySearchHint": "جستجوی کشور",
+  "countryNoResults": "کشوری مطابق یافت نشد",
+  "countryDocumentsCount": "{count} سند",
+  "@countryDocumentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "specSizeLabel": "اندازه",
+  "specBackgroundLabel": "پس‌زمینه",
+  "specDpiLabel": "وضوح",
+  "specFormatsLabel": "قالب‌ها",
+  "specHeadHeightLabel": "ارتفاع سر",
+  "specEyeLineLabel": "خط چشم از پایین",
+  "specGlassesAllowed": "عینک مجاز است",
+  "specGlassesNotAllowed": "عینک مجاز نیست",
+  "specMaxFileSizeLabel": "حداکثر حجم پرونده",
+  "specVerifiedBadge": "تأییدشده",
+  "specUnverifiedBadge": "تأییدنشده",
+  "specUnverifiedNotice": "لطفاً با منبع رسمی تأیید کنید.",
+  "specOfficialSource": "منبع رسمی",
+  "specLastVerified": "آخرین تأیید {date}",
+  "@specLastVerified": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "specUsePhoto": "استفاده از این عکس",
+  "specNotSpecified": "مشخص نشده",
+  "spec_us_passport": "گذرنامه ایالات متحده",
+  "spec_gb_passport": "گذرنامه بریتانیا",
+  "spec_ca_passport": "گذرنامه کانادا",
+  "spec_cn_visa": "ویزای چین",
+  "spec_de_schengen_visa": "آلمان — ویزای شنگن",
+  "spec_fr_schengen_visa": "فرانسه — ویزای شنگن",
+  "spec_it_schengen_visa": "ایتالیا — ویزای شنگن",
+  "spec_es_schengen_visa": "اسپانیا — ویزای شنگن",
+  "captureTitle": "عکس گرفتن",
+  "captureRationaleTitle": "دسترسی به دوربین لازم است",
+  "captureRationaleBody": "PhotoPass از دوربین شما برای گرفتن عکس گذرنامه استفاده می‌کند. عکس روی گوشی شما می‌ماند و هرگز بارگذاری نمی‌شود.",
+  "captureRationaleDenied": "دسترسی به دوربین غیرفعال است. برای عکس گرفتن آن را در تنظیمات سیستم فعال کنید یا عکسی از گالری انتخاب کنید.",
+  "captureRationaleAction": "اجازه دوربین",
+  "captureOpenSettings": "باز کردن تنظیمات",
+  "captureCameraError": "راه‌اندازی دوربین ممکن نشد. همچنان می‌توانید عکسی از گالری انتخاب کنید.",
+  "captureHintFace": "صورت خود را در بیضی قرار دهید",
+  "captureSwitchCamera": "تعویض دوربین",
+  "captureGallery": "انتخاب از گالری",
+  "editorTitle": "ویرایش عکس",
+  "editorRotate": "چرخش ۹۰ درجه",
+  "editorAutoFit": "تنظیم خودکار با چهره",
+  "editorApply": "برش عکس",
+  "retouchTitle": "پس‌زمینه و تنظیمات",
+  "retouchBackground": "پس‌زمینه",
+  "retouchRemoveBackground": "جایگزینی پس‌زمینه",
+  "retouchRemoveBackgroundHint": "پس‌زمینه ساده پشت شما را با یک رنگ تمیز پر می‌کند.",
+  "retouchTolerance": "حد تحمل تشخیص: {value}",
+  "@retouchTolerance": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "retouchBackgroundColor": "رنگ جایگزین",
+  "retouchAdjustments": "تنظیمات",
+  "retouchBrightness": "روشنایی",
+  "retouchContrast": "کنتراست",
+  "retouchSaturation": "رنگ",
+  "retouchLocalNote": "همه پردازش‌ها روی همین دستگاه انجام می‌شود.",
+  "retouchApply": "ادامه",
+  "complianceTitle": "بررسی انطباق",
+  "complianceIntro": "این بررسی‌ها عکس شما را با الزامات رسمی مقایسه می‌کنند. این‌ها راهنما هستند و پذیرش را تضمین نمی‌کنند.",
+  "complianceContinue": "ادامه به خروجی",
+  "complianceMeasured": "اندازه‌گیری‌شده",
+  "complianceDimensions": "اندازه عکس",
+  "complianceDimensionsDetail": "عکس باید دقیقاً ابعاد پیکسلی موردنظر را داشته باشد.",
+  "complianceFace": "یک چهره شناسایی شد",
+  "complianceFaceDetail": "عکس باید دقیقاً یک نفر را شامل شود.",
+  "complianceHeadHeight": "ارتفاع سر",
+  "complianceHeadHeightDetail": "ارتفاع سر باید در محدوده رسمی باشد.",
+  "complianceEyeLine": "محل خط چشم",
+  "complianceEyeLineDetail": "چشم‌ها باید در ارتفاع رسمی از پایین قرار گیرند.",
+  "complianceBackground": "رنگ و یکنواختی پس‌زمینه",
+  "complianceBackgroundDetail": "پس‌زمینه باید ساده و مطابق با رنگ موردنظر باشد.",
+  "complianceGlasses": "عینک",
+  "complianceGlassesAllowed": "برای این سند عینک مجاز است.",
+  "complianceGlassesForbidden": "برای این سند عینک مجاز نیست.",
+  "complianceFileSize": "حجم پرونده",
+  "complianceFileSizeDetail": "حجم پرونده باید کمتر از حد رسمی باشد.",
+  "exportTitle": "خروجی",
+  "exportSizeLabel": "{width} × {height} پیکسل",
+  "@exportSizeLabel": {
+    "placeholders": {
+      "width": {
+        "type": "int"
+      },
+      "height": {
+        "type": "int"
+      }
+    }
+  },
+  "exportDetails": "{mm} میلی‌متر در {dpi} DPI",
+  "@exportDetails": {
+    "placeholders": {
+      "mm": {
+        "type": "String"
+      },
+      "dpi": {
+        "type": "String"
+      }
+    }
+  },
+  "exportSavePhoto": "ذخیره عکس",
+  "exportSavePhotoHint": "عکس را با اندازه دقیق در گالری شما ذخیره می‌کند.",
+  "exportShare": "اشتراک‌گذاری",
+  "exportPdf": "PDF (آماده چاپ)",
+  "exportPdfHint": "یک عکس در اندازه فیزیکی دقیق، آماده چاپ.",
+  "exportPrintSheetTitle": "برگه‌های چاپ",
+  "exportPrintSheet": "برگه چاپ — {size}",
+  "@exportPrintSheet": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "exportPrintSheetHint": "چند عکس چیده‌شده روی یک برگه کاغذ عکس.",
+  "exportDoneSave": "ذخیره شد.",
+  "exportDonePdf": "PDF آماده اشتراک‌گذاری است.",
+  "exportDoneSheet": "برگه چاپ آماده اشتراک‌گذاری است.",
+  "exportLocalNote": "عکس‌ها روی همین دستگاه ساخته می‌شوند. هیچ چیزی بارگذاری نمی‌شود.",
+  "historyDelete": "حذف",
+  "settingsPrivacy": "حریم خصوصی",
+  "settingsClearHistoryHint": "همه عکس‌های ذخیره‌شده را از این دستگاه حذف می‌کند.",
+  "settingsClearHistoryConfirm": "این کار همه عکس‌های ذخیره‌شده در برنامه را برای همیشه حذف می‌کند. این کار قابل بازگشت نیست.",
+  "settingsClearHistoryAction": "حذف همه",
+  "privacyPolicyBody": "PhotoPass عکس‌های شما را کاملاً روی همین دستگاه پردازش می‌کند.\n\n• عکس‌ها هرگز به هیچ سروری بارگذاری نمی‌شوند.\n• برنامه هیچ آگهی، تحلیل یا ردیابی ندارد.\n• نیازی به حساب یا ورود نیست.\n• عکس‌های ذخیره‌شده فقط در فضای خصوصی برنامه نگهداری می‌شوند.\n• تنها دسترسی شبکه، باز کردن پیوندهای منابع رسمی دولتی در مرورگر شماست.\n• حذف برنامه همه داده‌های آن را از بین می‌برد.",
+  "settingsAppearance": "ظاهر",
+  "settingsGeneral": "عمومی",
+  "settingsLanguage": "زبان",
+  "settingsThemeLight": "روشن",
+  "settingsThemeDark": "تیره",
+  "settingsThemeSystem": "سیستم",
+  "settingsPrivacyPolicy": "سیاست حریم خصوصی",
+  "settingsTerms": "شرایط استفاده",
+  "settingsRateApp": "امتیاز دادن به برنامه",
+  "settingsClearHistory": "حذف همه عکس‌های ذخیره‌شده",
+  "settingsAbout": "درباره",
+  "settingsVersion": "نسخه {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "disclaimer": "الزامات ممکن است تغییر کنند. همیشه منبع رسمی را بررسی کنید. PhotoPass نمی‌تواند پذیرش را تضمین کند.",
+  "exportShareHint": "عکس نهایی را به برنامه دیگری ارسال می‌کند.",
+  "exportDoneShare": "به اشتراک گذاشته شد.",
+  "exportFileSizeLimit": "حداکثر حجم پرونده: {kb} KB",
+  "@exportFileSizeLimit": {
+    "placeholders": {
+      "kb": {
+        "type": "int"
+      }
+    }
+  },
+  "homeHeadline": "عکس گذرنامه منطبق بسازید",
+  "homeCreatePhoto": "عکس بسازید",
+  "homeRecentTitle": "اخیر",
+  "homeFavoritesTitle": "علاقه‌مندی‌ها",
+  "homeYourPhotosTitle": "عکس‌های شما",
+  "homeYourPhotosEmpty": "عکس‌هایی که می‌سازید اینجا نمایش داده می‌شوند.",
+  "specFavoriteAdd": "افزودن به علاقه‌مندی‌ها",
+  "specFavoriteRemove": "حذف از علاقه‌مندی‌ها",
+  "editorModeCrop": "برش",
+  "editorModeBackground": "پس‌زمینه",
+  "editorModeAdjust": "تنظیم",
+  "editorReset": "بازنشانی",
+  "editorDiscardTitle": "تغییرات نادیده گرفته شود؟",
+  "editorDiscardBody": "برش و تنظیمات شما از بین خواهد رفت.",
+  "editorDiscardConfirm": "نادیده گرفتن",
+  "captureFlash": "فلش",
+  "complianceActionRetake": "عکس را با نورپردازی یکنواخت‌تر دوباره بگیرید.",
+  "complianceActionBackground": "پس‌زمینه را عوض کنید یا جلوی دیواری ساده دوباره عکس بگیرید.",
+  "complianceActionCenter": "صورت خود را وسط قرار دهید، از تنظیم خودکار استفاده کنید و سپس دوباره عکس بگیرید.",
+  "complianceActionDimensions": "برای تولید اندازه دقیق موردنظر دوباره خروجی بگیرید.",
+  "complianceActionFilesize": "برای ماندن زیر حد حجم، به‌صورت JPEG خروجی بگیرید.",
+  "exportAdvancedDetails": "جزئیات",
+  "historyMissingPhoto": "پرونده عکس موجود نیست",
+  "swatchRequired": "الزامی",
+  "swatchSuggested": "پیشنهادی",
+  "editorCropHint": "برای جابه‌جایی بکشید و برای بزرگ‌نمایی دو انگشت بگذارید.",
+  "historyReopen": "باز کردن",
+  "historyReopenHint": "این عکس را در ویرایشگر باز می‌کند."
+}

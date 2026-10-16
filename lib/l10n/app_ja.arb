@@ -1,0 +1,230 @@
+﻿{
+  "@@locale": "ja",
+  "appTitle": "PhotoPass",
+  "navHome": "ホーム",
+  "navHistory": "履歴",
+  "navSettings": "設定",
+  "onboardingPrivacyTitle": "写真がスマートフォンの外に出ることは決してありません",
+  "onboardingPrivacyBody": "PhotoPassは顔検出・背景の削除・書き出しをすべてお使いの端末内で行います。アカウント不要、クラウドへのアップロードなし、画像の分析もありません。",
+  "onboardingHowTitle": "3つの簡単なステップ",
+  "onboardingHowBody": "国と書類の種類を選択し、写真を撮影または選択して、規格に合った印刷用画像を書き出します。",
+  "onboardingLanguageTitle": "言語を選択",
+  "commonContinue": "次へ",
+  "commonSkip": "スキップ",
+  "commonStart": "はじめる",
+  "commonBack": "戻る",
+  "commonCancel": "キャンセル",
+  "commonRetry": "もう一度試す",
+  "commonClose": "閉じる",
+  "errorGenericTitle": "エラーが発生しました",
+  "errorGenericBody": "もう一度お試しください。",
+  "placeholderBody": "この画面は今後のビルド段階で追加されます。",
+  "homeSearchHint": "国または書類を検索",
+  "homePopularTitle": "人気",
+  "homePassport": "パスポート",
+  "homeVisa": "ビザ",
+  "homeIdCard": "身分証明書",
+  "homeCustomSize": "カスタムサイズ",
+  "historyEmptyTitle": "まだ写真がありません",
+  "historyEmptyBody": "作成した写真がここに表示されます。",
+  "countrySelectTitle": "国と書類",
+  "countrySearchHint": "国を検索",
+  "countryNoResults": "該当する国がありません",
+  "countryDocumentsCount": "{count}件の書類",
+  "@countryDocumentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "specSizeLabel": "サイズ",
+  "specBackgroundLabel": "背景",
+  "specDpiLabel": "解像度",
+  "specFormatsLabel": "形式",
+  "specHeadHeightLabel": "頭の高さ",
+  "specEyeLineLabel": "下端から目の高さまで",
+  "specGlassesAllowed": "メガネの使用可",
+  "specGlassesNotAllowed": "メガネの使用不可",
+  "specMaxFileSizeLabel": "最大ファイルサイズ",
+  "specVerifiedBadge": "確認済み",
+  "specUnverifiedBadge": "未確認",
+  "specUnverifiedNotice": "公式な情報源でご確認ください。",
+  "specOfficialSource": "公式情報源",
+  "specLastVerified": "最終確認日 {date}",
+  "@specLastVerified": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "specUsePhoto": "この写真を使用",
+  "specNotSpecified": "指定なし",
+  "spec_us_passport": "アメリカ合衆国 パスポート",
+  "spec_gb_passport": "イギリス パスポート",
+  "spec_ca_passport": "カナダ パスポート",
+  "spec_cn_visa": "中国 ビザ",
+  "spec_de_schengen_visa": "ドイツ — シェンゲンビザ",
+  "spec_fr_schengen_visa": "フランス — シェンゲンビザ",
+  "spec_it_schengen_visa": "イタリア — シェンゲンビザ",
+  "spec_es_schengen_visa": "スペイン — シェンゲンビザ",
+  "captureTitle": "写真を撮る",
+  "captureRationaleTitle": "カメラへのアクセスが必要です",
+  "captureRationaleBody": "PhotoPassはパスポート用写真を撮影するためにカメラを使用します。写真はスマートフォンに留まり、アップロードされることはありません。",
+  "captureRationaleDenied": "カメラへのアクセスがオフになっています。写真を撮影するにはシステム設定で有効にするか、ギャラリーから選択してください。",
+  "captureRationaleAction": "カメラを許可",
+  "captureOpenSettings": "設定を開く",
+  "captureCameraError": "カメラを起動できませんでした。ギャラリーから写真を選択することもできます。",
+  "captureHintFace": "顔を楕円の中に収めてください",
+  "captureSwitchCamera": "カメラを切り替え",
+  "captureGallery": "ギャラリーから選択",
+  "editorTitle": "写真を編集",
+  "editorRotate": "90°回転",
+  "editorAutoFit": "顔に自動合わせ",
+  "editorApply": "写真を切り抜く",
+  "retouchTitle": "背景と調整",
+  "retouchBackground": "背景",
+  "retouchRemoveBackground": "背景を変更",
+  "retouchRemoveBackgroundHint": "背後の単色背景をきれいな色で塗り替えます。",
+  "retouchTolerance": "検出の許容度: {value}",
+  "@retouchTolerance": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "retouchBackgroundColor": "置換カラー",
+  "retouchAdjustments": "調整",
+  "retouchBrightness": "明るさ",
+  "retouchContrast": "コントラスト",
+  "retouchSaturation": "彩度",
+  "retouchLocalNote": "すべての処理はこの端末内で行われます。",
+  "retouchApply": "次へ",
+  "complianceTitle": "規格チェック",
+  "complianceIntro": "これらのチェックは写真を公式要件と照合します。受理を保証するものではなく、あくまで参考としてご利用ください。",
+  "complianceContinue": "書き出しに進む",
+  "complianceMeasured": "計測結果",
+  "complianceDimensions": "写真サイズ",
+  "complianceDimensionsDetail": "写真は指定されたピクセル寸法と完全に一致している必要があります。",
+  "complianceFace": "顔が1つ検出されました",
+  "complianceFaceDetail": "写真には人物がちょうど1人写っている必要があります。",
+  "complianceHeadHeight": "頭の高さ",
+  "complianceHeadHeightDetail": "頭の高さは公式の範囲内である必要があります。",
+  "complianceEyeLine": "目の高さの位置",
+  "complianceEyeLineDetail": "目は下端からの公式の高さにある必要があります。",
+  "complianceBackground": "背景色と均一性",
+  "complianceBackgroundDetail": "背景は単色で、指定された色に一致している必要があります。",
+  "complianceGlasses": "メガネ",
+  "complianceGlassesAllowed": "この書類ではメガネの使用が許可されています。",
+  "complianceGlassesForbidden": "この書類ではメガネの使用が許可されていません。",
+  "complianceFileSize": "ファイルサイズ",
+  "complianceFileSizeDetail": "ファイルは公式のサイズ制限内に収まる必要があります。",
+  "exportTitle": "書き出し",
+  "exportSizeLabel": "{width} × {height} ピクセル",
+  "@exportSizeLabel": {
+    "placeholders": {
+      "width": {
+        "type": "int"
+      },
+      "height": {
+        "type": "int"
+      }
+    }
+  },
+  "exportDetails": "{mm} mm、{dpi} DPI",
+  "@exportDetails": {
+    "placeholders": {
+      "mm": {
+        "type": "String"
+      },
+      "dpi": {
+        "type": "String"
+      }
+    }
+  },
+  "exportSavePhoto": "写真を保存",
+  "exportSavePhotoHint": "正確なサイズの写真をギャラリーに保存します。",
+  "exportShare": "共有",
+  "exportPdf": "PDF（印刷対応）",
+  "exportPdfHint": "正確な実寸で印刷できる写真を1枚収録します。",
+  "exportPrintSheetTitle": "印刷シート",
+  "exportPrintSheet": "印刷シート — {size}",
+  "@exportPrintSheet": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "exportPrintSheetHint": "写真用紙1枚に複数の写真を配置します。",
+  "exportDoneSave": "保存しました。",
+  "exportDonePdf": "PDFを共有できます。",
+  "exportDoneSheet": "印刷シートを共有できます。",
+  "exportLocalNote": "写真はこの端末内で作成されます。アップロードは一切行われません。",
+  "historyDelete": "削除",
+  "settingsPrivacy": "プライバシー",
+  "settingsClearHistoryHint": "この端末から保存されたすべての写真を削除します。",
+  "settingsClearHistoryConfirm": "アプリに保存されたすべての写真を完全に削除します。この操作は取り消せません。",
+  "settingsClearHistoryAction": "すべて削除",
+  "privacyPolicyBody": "PhotoPassは写真をすべてこの端末内で処理します。\n\n• 写真がサーバーにアップロードされることはありません。\n• アプリに広告、アクセス解析、トラッキングは含まれません。\n• アカウントやログインは必要ありません。\n• 保存された写真はアプリのプライベートな保存領域にのみ保持されます。\n• ネットワークアクセスは、ブラウザで公式の政府情報源のリンクを開くことだけです。\n• アプリを削除すると、そのすべてのデータも削除されます。",
+  "settingsAppearance": "外観",
+  "settingsGeneral": "一般",
+  "settingsLanguage": "言語",
+  "settingsThemeLight": "ライト",
+  "settingsThemeDark": "ダーク",
+  "settingsThemeSystem": "システム",
+  "settingsPrivacyPolicy": "プライバシーポリシー",
+  "settingsTerms": "利用規約",
+  "settingsRateApp": "アプリを評価",
+  "settingsClearHistory": "保存された写真をすべて削除",
+  "settingsAbout": "情報",
+  "settingsVersion": "バージョン {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "disclaimer": "要件は変更される場合があります。必ず公式の情報源をご確認ください。PhotoPassは受理を保証することはできません。",
+  "exportShareHint": "完成した写真を他のアプリに送信します。",
+  "exportDoneShare": "共有しました。",
+  "exportFileSizeLimit": "最大ファイルサイズ: {kb} KB",
+  "@exportFileSizeLimit": {
+    "placeholders": {
+      "kb": {
+        "type": "int"
+      }
+    }
+  },
+  "homeHeadline": "規格に合ったパスポート用写真を作成",
+  "homeCreatePhoto": "写真を作成",
+  "homeRecentTitle": "最近",
+  "homeFavoritesTitle": "お気に入り",
+  "homeYourPhotosTitle": "あなたの写真",
+  "homeYourPhotosEmpty": "作成した写真がここに表示されます。",
+  "specFavoriteAdd": "お気に入りに追加",
+  "specFavoriteRemove": "お気に入りから削除",
+  "editorModeCrop": "切り抜き",
+  "editorModeBackground": "背景",
+  "editorModeAdjust": "調整",
+  "editorReset": "リセット",
+  "editorDiscardTitle": "変更を破棄しますか？",
+  "editorDiscardBody": "切り抜きと調整内容が失われます。",
+  "editorDiscardConfirm": "破棄",
+  "captureFlash": "フラッシュ",
+  "complianceActionRetake": "光をより均一にして撮り直してください。",
+  "complianceActionBackground": "背景を変更するか、無地の壁を背景に撮り直してください。",
+  "complianceActionCenter": "顔を中央に配置し、自動合わせを使用してから撮り直してください。",
+  "complianceActionDimensions": "指定された正確なサイズになるよう、再度書き出してください。",
+  "complianceActionFilesize": "サイズ制限内に収めるため、JPEGとして書き出してください。",
+  "exportAdvancedDetails": "詳細",
+  "historyMissingPhoto": "写真ファイルが見つかりません",
+  "swatchRequired": "必須",
+  "swatchSuggested": "推奨",
+  "editorCropHint": "ドラッグで移動し、ピンチで拡大縮小します。",
+  "historyReopen": "開く",
+  "historyReopenHint": "この写真をエディターで開きます。"
+}

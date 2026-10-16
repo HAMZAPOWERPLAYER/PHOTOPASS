@@ -1,0 +1,230 @@
+﻿{
+  "@@locale": "hi",
+  "appTitle": "PhotoPass",
+  "navHome": "होम",
+  "navHistory": "इतिहास",
+  "navSettings": "सेटिंग्स",
+  "onboardingPrivacyTitle": "आपकी फ़ोटो आपके फ़ोन से कभी बाहर नहीं जातीं",
+  "onboardingPrivacyBody": "फ़ोटोपास चेहरा पहचानना, बैकग्राउंड हटाना और फ़ोटो एक्सपोर्ट पूरी तरह आपके ही डिवाइस पर करता है। कोई खाता नहीं, कोई क्लाउड अपलोड नहीं, और आपकी फ़ोटो पर कोई एनालिटिक्स नहीं।",
+  "onboardingHowTitle": "तीन आसान चरण",
+  "onboardingHowBody": "अपना देश और दस्तावेज़ का प्रकार चुनें, फ़ोटो खींचें या चुनें, फिर मानक-अनुरूप, प्रिंट के लिए तैयार छवि एक्सपोर्ट करें।",
+  "onboardingLanguageTitle": "अपनी भाषा चुनें",
+  "commonContinue": "जारी रखें",
+  "commonSkip": "छोड़ें",
+  "commonStart": "आरंभ करें",
+  "commonBack": "वापस",
+  "commonCancel": "रद्द करें",
+  "commonRetry": "फिर से कोशिश करें",
+  "commonClose": "बंद करें",
+  "errorGenericTitle": "कुछ गलत हो गया",
+  "errorGenericBody": "कृपया फिर से कोशिश करें।",
+  "placeholderBody": "यह स्क्रीन अगले बिल्ड चरण में आएगी।",
+  "homeSearchHint": "देश या दस्तावेज़ खोजें",
+  "homePopularTitle": "लोकप्रिय",
+  "homePassport": "पासपोर्ट",
+  "homeVisa": "वीज़ा",
+  "homeIdCard": "पहचान पत्र",
+  "homeCustomSize": "कस्टम आकार",
+  "historyEmptyTitle": "अभी कोई फ़ोटो नहीं",
+  "historyEmptyBody": "आपके बनाए फ़ोटो यहाँ दिखाई देंगे।",
+  "countrySelectTitle": "देश और दस्तावेज़",
+  "countrySearchHint": "देश खोजें",
+  "countryNoResults": "कोई मेल खाता देश नहीं",
+  "countryDocumentsCount": "दस्तावेज़: {count}",
+  "@countryDocumentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "specSizeLabel": "आकार",
+  "specBackgroundLabel": "बैकग्राउंड",
+  "specDpiLabel": "रिज़ॉल्यूशन",
+  "specFormatsLabel": "फ़ॉर्मैट",
+  "specHeadHeightLabel": "सिर की ऊँचाई",
+  "specEyeLineLabel": "नीचे से आँखों की रेखा",
+  "specGlassesAllowed": "चश्मा अनुमत है",
+  "specGlassesNotAllowed": "चश्मा अनुमत नहीं है",
+  "specMaxFileSizeLabel": "अधिकतम फ़ाइल आकार",
+  "specVerifiedBadge": "सत्यापित",
+  "specUnverifiedBadge": "असत्यापित",
+  "specUnverifiedNotice": "कृपया आधिकारिक स्रोत से पुष्टि करें।",
+  "specOfficialSource": "आधिकारिक स्रोत",
+  "specLastVerified": "अंतिम सत्यापन {date}",
+  "@specLastVerified": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "specUsePhoto": "इस फ़ोटो का उपयोग करें",
+  "specNotSpecified": "निर्दिष्ट नहीं",
+  "spec_us_passport": "संयुक्त राज्य अमेरिका का पासपोर्ट",
+  "spec_gb_passport": "ब्रिटेन का पासपोर्ट",
+  "spec_ca_passport": "कनाडा का पासपोर्ट",
+  "spec_cn_visa": "चीन का वीज़ा",
+  "spec_de_schengen_visa": "जर्मनी — शेंगेन वीज़ा",
+  "spec_fr_schengen_visa": "फ्रांस — शेंगेन वीज़ा",
+  "spec_it_schengen_visa": "इटली — शेंगेन वीज़ा",
+  "spec_es_schengen_visa": "स्पेन — शेंगेन वीज़ा",
+  "captureTitle": "फ़ोटो खींचें",
+  "captureRationaleTitle": "कैमरा एक्सेस आवश्यक",
+  "captureRationaleBody": "PhotoPass पासपोर्ट फ़ोटो खींचने के लिए आपके कैमरे का उपयोग करता है। फ़ोटो आपके फ़ोन पर ही रहती है और उसे कभी अपलोड नहीं किया जाता।",
+  "captureRationaleDenied": "कैमरा एक्सेस बंद है। फ़ोटो खींचने के लिए सिस्टम सेटिंग्स में इसे चालू करें, या अपनी गैलरी से कोई फ़ोटो चुनें।",
+  "captureRationaleAction": "कैमरे की अनुमति दें",
+  "captureOpenSettings": "सेटिंग्स खोलें",
+  "captureCameraError": "कैमरा शुरू नहीं हो सका। आप फिर भी अपनी गैलरी से फ़ोटो चुन सकते हैं।",
+  "captureHintFace": "अपने चेहरे को अंडाकार के भीतर रखें",
+  "captureSwitchCamera": "कैमरा बदलें",
+  "captureGallery": "गैलरी से चुनें",
+  "editorTitle": "फ़ोटो संपादित करें",
+  "editorRotate": "90° घुमाएँ",
+  "editorAutoFit": "चेहरे के अनुसार स्वतः फ़िट",
+  "editorApply": "फ़ोटो क्रॉप करें",
+  "retouchTitle": "बैकग्राउंड और समायोजन",
+  "retouchBackground": "बैकग्राउंड",
+  "retouchRemoveBackground": "बैकग्राउंड बदलें",
+  "retouchRemoveBackgroundHint": "आपके पीछे के सपाट बैकग्राउंड को साफ़ रंग से भर देता है।",
+  "retouchTolerance": "पहचान सहनशीलता: {value}",
+  "@retouchTolerance": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "retouchBackgroundColor": "प्रतिस्थापन रंग",
+  "retouchAdjustments": "समायोजन",
+  "retouchBrightness": "चमक",
+  "retouchContrast": "कॉन्ट्रास्ट",
+  "retouchSaturation": "संतृप्ति",
+  "retouchLocalNote": "सभी प्रोसेसिंग इसी डिवाइस पर होती है।",
+  "retouchApply": "जारी रखें",
+  "complianceTitle": "अनुरूपता जाँच",
+  "complianceIntro": "ये जाँच आपके फ़ोटो की तुलना आधिकारिक आवश्यकताओं से करती हैं। ये केवल मार्गदर्शन हैं, स्वीकृति की गारंटी नहीं।",
+  "complianceContinue": "एक्सपोर्ट पर जाएँ",
+  "complianceMeasured": "मापा गया",
+  "complianceDimensions": "फ़ोटो का आकार",
+  "complianceDimensionsDetail": "फ़ोटो का पिक्सल आयाम बिल्कुल आवश्यक माप के अनुसार होना चाहिए।",
+  "complianceFace": "एक चेहरा मिला",
+  "complianceFaceDetail": "फ़ोटो में ठीक एक ही व्यक्ति होना चाहिए।",
+  "complianceHeadHeight": "सिर की ऊँचाई",
+  "complianceHeadHeightDetail": "सिर की ऊँचाई आधिकारिक सीमा के भीतर होनी चाहिए।",
+  "complianceEyeLine": "आँखों की रेखा की स्थिति",
+  "complianceEyeLineDetail": "आँखें नीचे के किनारे से आधिकारिक ऊँचाई पर होनी चाहिएं।",
+  "complianceBackground": "बैकग्राउंड का रंग और समानता",
+  "complianceBackgroundDetail": "बैकग्राउंड सपाट होना चाहिए और आवश्यक रंग से मेल खाना चाहिए।",
+  "complianceGlasses": "चश्मा",
+  "complianceGlassesAllowed": "इस दस्तावेज़ के लिए चश्मा अनुमत हैं।",
+  "complianceGlassesForbidden": "इस दस्तावेज़ के लिए चश्मा अनुमत नहीं हैं।",
+  "complianceFileSize": "फ़ाइल का आकार",
+  "complianceFileSizeDetail": "फ़ाइल आधिकारिक सीमा से कम होनी चाहिए।",
+  "exportTitle": "एक्सपोर्ट",
+  "exportSizeLabel": "{width} × {height} पिक्सल",
+  "@exportSizeLabel": {
+    "placeholders": {
+      "width": {
+        "type": "int"
+      },
+      "height": {
+        "type": "int"
+      }
+    }
+  },
+  "exportDetails": "{dpi} DPI पर {mm} मिमी",
+  "@exportDetails": {
+    "placeholders": {
+      "mm": {
+        "type": "String"
+      },
+      "dpi": {
+        "type": "String"
+      }
+    }
+  },
+  "exportSavePhoto": "फ़ोटो सहेजें",
+  "exportSavePhotoHint": "सटीक आकार की फ़ोटो आपकी गैलरी में सहेजता है।",
+  "exportShare": "साझा करें",
+  "exportPdf": "PDF (प्रिंट के लिए तैयार)",
+  "exportPdfHint": "सटीक भौतिक आकार में एक फ़ोटो, प्रिंट के लिए तैयार।",
+  "exportPrintSheetTitle": "प्रिंट शीट",
+  "exportPrintSheet": "प्रिंट शीट — {size}",
+  "@exportPrintSheet": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "exportPrintSheetHint": "एक फ़ोटो पेपर शीट पर व्यवस्थित कई फ़ोटो।",
+  "exportDoneSave": "सहेजा गया।",
+  "exportDonePdf": "PDF साझा करने के लिए तैयार है।",
+  "exportDoneSheet": "प्रिंट शीट साझा करने के लिए तैयार है।",
+  "exportLocalNote": "फ़ोटो इसी डिवाइस पर बनती हैं। कुछ भी अपलोड नहीं होता।",
+  "historyDelete": "हटाएँ",
+  "settingsPrivacy": "गोपनीयता",
+  "settingsClearHistoryHint": "इस डिवाइस से सभी सहेजी गई फ़ोटो हटाता है।",
+  "settingsClearHistoryConfirm": "यह ऐप में सहेजी गई हर फ़ोटो को स्थायी रूप से हटा देता है। इसे पूर्ववत नहीं किया जा सकता।",
+  "settingsClearHistoryAction": "सब कुछ हटाएँ",
+  "privacyPolicyBody": "PhotoPass आपकी फ़ोटो का प्रोसेसिंग पूरी तरह इसी डिवाइस पर करता है।\n\n• फ़ोटो कभी भी किसी सर्वर पर अपलोड नहीं की जातीं।\n• ऐप में कोई विज्ञापन, एनालिटिक्स या ट्रैकिंग नहीं है।\n• किसी खाते या लॉगिन की आवश्यकता नहीं है।\n• सहेजी गई फ़ोटो केवल ऐप के निजी स्टोरेज में रहती हैं।\n• एकमात्र नेटवर्क एक्सेस आपके ब्राउज़र में आधिकारिक सरकारी स्रोत लिंक खोलना है।\n• ऐप हटाने से उसका सारा डेटा हट जाता है।",
+  "settingsAppearance": "थीम",
+  "settingsGeneral": "सामान्य",
+  "settingsLanguage": "भाषा",
+  "settingsThemeLight": "लाइट",
+  "settingsThemeDark": "डार्क",
+  "settingsThemeSystem": "सिस्टम",
+  "settingsPrivacyPolicy": "गोपनीयता नीति",
+  "settingsTerms": "उपयोग की शर्तें",
+  "settingsRateApp": "ऐप को रेटिंग दें",
+  "settingsClearHistory": "सभी सहेजी गई फ़ोटो हटाएँ",
+  "settingsAbout": "ऐप के बारे में",
+  "settingsVersion": "संस्करण {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "disclaimer": "आवश्यकताएँ बदल सकती हैं। हमेशा आधिकारिक स्रोत की जाँच करें। PhotoPass स्वीकृति की गारंटी नहीं दे सकता।",
+  "exportShareHint": "तैयार की गई फ़ोटो को किसी अन्य ऐप पर भेजता है।",
+  "exportDoneShare": "साझा किया गया।",
+  "exportFileSizeLimit": "अधिकतम फ़ाइल आकार: {kb} KB",
+  "@exportFileSizeLimit": {
+    "placeholders": {
+      "kb": {
+        "type": "int"
+      }
+    }
+  },
+  "homeHeadline": "मानक-अनुरूप पासपोर्ट फ़ोटो बनाएँ",
+  "homeCreatePhoto": "फ़ोटो बनाएँ",
+  "homeRecentTitle": "हाल की",
+  "homeFavoritesTitle": "पसंदीदा",
+  "homeYourPhotosTitle": "आपकी फ़ोटो",
+  "homeYourPhotosEmpty": "आपके बनाए फ़ोटो यहाँ दिखाई देंगे।",
+  "specFavoriteAdd": "पसंदीदा में जोड़ें",
+  "specFavoriteRemove": "पसंदीदा से हटाएँ",
+  "editorModeCrop": "क्रॉप",
+  "editorModeBackground": "बैकग्राउंड",
+  "editorModeAdjust": "समायोजन",
+  "editorReset": "रीसेट करें",
+  "editorDiscardTitle": "परिवर्तन रद्द करें?",
+  "editorDiscardBody": "आपकी क्रॉप और समायोजन खो जाएँगे।",
+  "editorDiscardConfirm": "रद्द करें",
+  "captureFlash": "फ़्लैश",
+  "complianceActionRetake": "अधिक समान रोशनी के साथ फ़ोटो फिर से खींचें।",
+  "complianceActionBackground": "बैकग्राउंड बदलें या सपाट दीवार के सामने फ़ोटो फिर से खींचें।",
+  "complianceActionCenter": "अपने चेहरे को बीच में रखें, स्वतः फ़िट का उपयोग करें, फिर फ़ोटो फिर से खींचें।",
+  "complianceActionDimensions": "सटीक आवश्यक आकार बनाने के लिए फिर से एक्सपोर्ट करें।",
+  "complianceActionFilesize": "आकार सीमा के भीतर रहने के लिए JPEG के रूप में एक्सपोर्ट करें।",
+  "exportAdvancedDetails": "विवरण",
+  "historyMissingPhoto": "फ़ोटो फ़ाइल उपलब्ध नहीं",
+  "swatchRequired": "आवश्यक",
+  "swatchSuggested": "सुझाया गया",
+  "editorCropHint": "स्थानांतरित करने के लिए खींचें, ज़ूम करने के लिए पिंच करें।",
+  "historyReopen": "खोलें",
+  "historyReopenHint": "यह फ़ोटो संपादक में खोलता है।"
+}
